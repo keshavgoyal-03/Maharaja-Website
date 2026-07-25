@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maharaja Readymade | The Royal Address of Fashion | Bulandshahr</title>
+<meta name="description" content="Maharaja Readymade - The Royal Address of Fashion. 34+ years of trust, 500,000+ happy families and still continuing, 5 grand levels across 10,000 sq ft. Premium brands at Ansari Road, Bulandshahr, Uttar Pradesh.">
+<meta name="keywords" content="Maharaja Readymade, Bulandshahr, fashion, clothing, readymade, US Polo Assn, Van Heusen, Monte Carlo, Parx, Park Avenue, Killer, Mufti, Jockey, bridal wear, mens wear, ladies wear, kids wear">
+<meta name="author" content="Maharaja Readymade">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Maharaja Readymade | The Royal Address of Fashion">
+<meta property="og:description" content="34+ years of trust, 500,000+ happy families and still continuing, 5 grand levels. Premium fashion at Ansari Road, Bulandshahr.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/jpeg" href="assets/img/logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="loading-screen">
+  <div class="loading-crown">
+    <div class="crown-base"></div>
+    <div class="crown-point"></div><div class="crown-point"></div>
+    <div class="crown-point"></div><div class="crown-point"></div>
+    <div class="crown-point"></div>
+    <div class="crown-jewel"></div><div class="crown-jewel"></div><div class="crown-jewel"></div>
+  </div>
+  <div class="loading-title">Maharaja Readymade</div>
+  <div class="loading-tagline">The Royal Address of Fashion</div>
+  <div class="loading-bar-container"><div class="loading-bar"></div></div>
+</div>
+
+<div class="floating-orb orb-a"></div>
+<div class="floating-orb orb-b"></div>
+<div class="floating-orb orb-c"></div>
+
+<div class="lightbox-overlay" id="lightbox-overlay" onclick="closeLightbox(event)">
+  <div class="lightbox-close" onclick="closeLightbox(event)"><i class="fas fa-times"></i></div>
+  <img id="lightbox-img" src="" alt="">
+  <video id="lightbox-video" controls loop playsinline style="display:none;"></video>
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<div class="mobile-header">
+  <div class="mobile-header-left">
+    <img src="assets/img/logo.jpg" alt="Maharaja Readymade" class="mobile-logo">
+    <span class="mobile-title">Maharaja Readymade</span>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</div>
+
+<div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleMobileMenu()"></div>
+
+<aside class="sidebar" id="sidebar">
+  <img src="assets/img/logo.jpg" alt="Maharaja Readymade" class="sidebar-logo">
+  <div class="sidebar-brand">Maharaja</div>
+  <div class="sidebar-tagline">The Royal Address of Fashion</div>
+  <div class="sidebar-divider"></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item active" data-tab="home" onclick="switchTab('home')">
+      <i class="fas fa-home"></i><span>Home</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="story" onclick="switchTab('story')">
+      <i class="fas fa-book-open"></i><span>Our Story</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="brands" onclick="switchTab('brands')">
+      <i class="fas fa-tags"></i><span>Brands</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="range" onclick="switchTab('range')">
+      <i class="fas fa-layer-group"></i><span>Our Range</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="reviews" onclick="switchTab('reviews')">
+      <i class="fas fa-star"></i><span>Reviews</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="photos" onclick="switchTab('photos')">
+      <i class="fas fa-images"></i><span>Gallery</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="contact" onclick="switchTab('contact')">
+      <i class="fas fa-phone"></i><span>Contact</span>
+    </a>
+    <a class="sidebar-nav-item" data-tab="ai" onclick="switchTab('ai')">
+      <i class="fas fa-robot"></i><span>AI Assistant</span>
+    </a>
+  </nav>
+  <div class="sidebar-footer">Est. 1992 &bull; Bulandshahr</div>
+</aside>
+
+<main class="main-content" id="main-content">
+
+<!-- TAB 1: HOME -->
+<section class="tab-content active" id="tab-home">
+  <div class="video-bg-container">
+    <!-- Two models presenting bridal gowns on the runway.
+         Sources are chosen by viewport at runtime (see pickVideoSources) so
+         phones never pull the 18MB cinematic master. -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata"
+           poster="https://images.pexels.com/videos/7305172/pexels-photo-7305172.jpeg?auto=compress&cs=tinysrgb&w=1280"
+           data-src-lg="https://videos.pexels.com/video-files/7305172/7305172-uhd_2732_1440_25fps.mp4"
+           data-src-sm="https://videos.pexels.com/video-files/7305172/7305172-sd_960_506_25fps.mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="stars"></canvas>
+    <div class="tab-inner">
+      <div class="hero-section">
+        <div class="hero-crown-float">
+          <div class="loading-crown" style="width:100px;height:80px;">
+            <div class="crown-base" style="width:90px;height:14px;"></div>
+            <div class="crown-point" style="left:8px;border-bottom-width:32px;"></div>
+            <div class="crown-point" style="left:28px;border-bottom-width:44px;"></div>
+            <div class="crown-point" style="left:50%;transform:translateX(-50%);border-bottom-width:52px;"></div>
+            <div class="crown-point" style="right:28px;border-bottom-width:44px;"></div>
+            <div class="crown-point" style="right:8px;border-bottom-width:32px;"></div>
+            <div class="crown-jewel" style="bottom:38px;left:24px;"></div>
+            <div class="crown-jewel" style="bottom:48px;left:50%;transform:translateX(-50%);width:10px;height:10px;"></div>
+            <div class="crown-jewel" style="bottom:38px;right:24px;"></div>
+          </div>
+        </div>
+        <h1 class="hero-title-3d golden-shine">Maharaja Readymade</h1>
+        <p class="hero-tagline">The Royal Address of Fashion</p>
+        <div class="hero-stats">
+          <div class="hero-stat reveal">
+            <span class="hero-stat-number" data-count="34">0</span>
+            <span class="hero-stat-label">Years of Trust</span>
+          </div>
+          <div class="hero-stat reveal">
+            <span class="hero-stat-number" data-count="500000">0</span>
+            <span class="hero-stat-label">Happy Families &amp; Still Continuing</span>
+          </div>
+          <div class="hero-stat reveal">
+            <span class="hero-stat-number" data-count="5">0</span>
+            <span class="hero-stat-label">Grand Levels</span>
+          </div>
+        </div>
+        <div class="hero-cta reveal">
+          <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20would%20like%20to%20explore%20your%20collection" class="btn-gold" target="_blank">
+            <i class="fab fa-whatsapp"></i> Shop on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="why-section">
+        <h2 class="section-title reveal">Why Maharaja?</h2>
+        <p class="section-subtitle reveal">A legacy woven with trust</p>
+        <div class="why-grid">
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-crown"></i></div>
+            <h3>34+ Years of Trust</h3>
+            <p>Serving Bulandshahr since 1992 with unwavering commitment to quality and customer satisfaction.</p>
+          </div>
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-users"></i></div>
+            <h3>500,000+ Happy Families</h3>
+            <p>A growing family of delighted customers, and still continuing, who trust us for every celebration and occasion.</p>
+          </div>
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-building"></i></div>
+            <h3>5 Grand Levels</h3>
+            <p>10,000 sq ft of fashion spread across 5 magnificent floors, offering an unmatched shopping experience.</p>
+          </div>
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-gem"></i></div>
+            <h3>Premium Brands</h3>
+            <p>Authorized retailer of 12+ renowned national and international fashion brands under one roof.</p>
+          </div>
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-cut"></i></div>
+            <h3>Expert Tailoring</h3>
+            <p>Professional alteration and customization services to ensure the perfect fit every time.</p>
+          </div>
+          <div class="why-card card-3d reveal">
+            <div class="why-card-icon"><i class="fas fa-tags"></i></div>
+            <h3>Best Prices</h3>
+            <p>Competitive pricing across all categories from Rs. 59 to Rs. 36,999 with genuine products guaranteed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 2: OUR STORY -->
+<section class="tab-content" id="tab-story">
+  <div class="video-bg-container">
+    <!-- Master tailor cutting fabric -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/6765471/6765471-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="ribbon"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">Our Story</h2>
+      <p class="section-subtitle reveal">A journey of passion since 1992</p>
+      <div class="story-content">
+        <p class="story-text reveal">
+          In the heart of Bulandshahr, on the bustling Ansari Road, a dream took shape in 1992.
+          What began as a modest readymade garments store has today blossomed into <strong style="color:#D4AF37;">Maharaja Readymade</strong> —
+          a name synonymous with trust, quality, and royal fashion. For over three decades, we have dressed generations of families,
+          witnessed countless weddings, celebrated festivals, and become a part of the fabric of this beautiful city.
+        </p>
+        <p class="story-text reveal">
+          From a single counter to <strong style="color:#D4AF37;">5 grand levels spanning 10,000 square feet</strong>,
+          our journey reflects the aspirations of every customer who walked through our doors.
+          Under the visionary leadership of <strong style="color:#D4AF37;">Nitesh Goyal</strong>,
+          supported by Rajeev Goyal and Ravinder Goyal, Maharaja Readymade continues to set new benchmarks
+          in fashion retail across Western Uttar Pradesh.
+        </p>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">1992</div>
+            <div class="timeline-title">The Beginning</div>
+            <div class="timeline-desc">Maharaja Readymade opens its doors on Ansari Road, Bulandshahr, with a vision to bring quality readymade fashion to the city.</div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2000</div>
+            <div class="timeline-title">First Expansion</div>
+            <div class="timeline-desc">Growing demand leads to expansion. The store now occupies multiple floors with dedicated sections for men, women, and children.</div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2010</div>
+            <div class="timeline-title">Brand Partnerships</div>
+            <div class="timeline-desc">Partnerships with premium brands like U.S. Polo Assn., Van Heusen, Monte Carlo, and more transform Maharaja into a multi-brand destination.</div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2015</div>
+            <div class="timeline-title">5 Levels Complete</div>
+            <div class="timeline-desc">The store reaches its current magnificent form — 5 grand levels with dedicated bridal, ethnic, formal, casual, and accessories sections.</div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2020</div>
+            <div class="timeline-title">Digital Presence</div>
+            <div class="timeline-desc">Embracing the digital age with WhatsApp Business and Instagram, bringing the Maharaja experience online for customers everywhere.</div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Today</div>
+            <div class="timeline-title">500,000+ Families</div>
+            <div class="timeline-desc">Serving over <span class="hero-stat-number timeline-counter" data-count="500000">0</span>+ happy families and still continuing, Maharaja Readymade stands as the undisputed royal address of fashion in Bulandshahr.</div>
+          </div>
+        </div>
+        <div class="story-quote reveal">
+          <p>"Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening."</p>
+          <cite>— Coco Chanel</cite>
+        </div>
+        <div class="map-widget glass-card reveal">
+          <div class="map-widget-frame">
+            <iframe src="https://maps.google.com/maps?q=Maharaja+Readymade,+Ansari+Road,+Bulandshahr,+Uttar+Pradesh+203001&z=17&output=embed"
+                    width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Maharaja Readymade on Google Maps"></iframe>
+          </div>
+          <div class="map-widget-bar">
+            <div class="map-widget-meta">
+              <strong>Maharaja Readymade</strong>
+              <span>Ansari Road, Chowk Bazar, Bulandshahr, Uttar Pradesh — 203001</span>
+            </div>
+            <a href="https://maps.app.goo.gl/dUHVeM35PiduibGa7?g_st=aw" class="btn-gold" target="_blank" rel="noopener">
+              <i class="fas fa-location-arrow"></i> Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 3: BRANDS -->
+<section class="tab-content" id="tab-brands">
+  <div class="video-bg-container">
+    <!-- Clothes in a shop -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/8195083/8195083-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="cubes"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">Our Brands</h2>
+      <p class="section-subtitle reveal">12 premium labels under one royal roof</p>
+
+      <div class="own-brand-showcase glass-card reveal">
+        <img src="" alt="Maharaja Readymade" class="own-brand-logo logo-clone">
+        <div>
+          <h3 class="own-brand-title">The House of Maharaja Readymade</h3>
+          <p class="own-brand-sub">The Royal Address of Fashion since 1992 — your trusted destination for every one of the brands below.</p>
+        </div>
+      </div>
+      <h3 class="section-title reveal" style="font-size:1.4rem;margin-top:50px;">Our Partner Brands</h3>
+
+      <div class="brands-grid">
+
+        <!-- Brand 1: U.S. Polo Assn. -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/us-polo-assn.png" alt="U.S. Polo Assn." class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>U.S. Polo Assn.</h4>
+              <p>Official brand of the United States Polo Association. Classic American style with premium casual and sportswear for the modern gentleman.</p>
+              <span class="brand-category">Mens Casual & Sportswear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 2: Monte Carlo -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/monte-carlo.png" alt="Monte Carlo" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Monte Carlo</h4>
+              <p>India&#39;s premier woollen and all-season fashion brand. From cozy winter wear to trendy casuals, Monte Carlo defines comfort and style.</p>
+              <span class="brand-category">Mens & Womens Wear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 3: Parx -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/parx.png" alt="Parx" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Parx</h4>
+              <p>Young, vibrant, and trendy fashion from the house of Raymond. Parx offers contemporary casuals that speak the language of the new generation.</p>
+              <span class="brand-category">Mens Casual Wear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 4: Park Avenue -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/park-avenue.png" alt="Park Avenue" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Park Avenue</h4>
+              <p>India&#39;s largest formalwear brand. From boardroom meetings to black-tie events, Park Avenue delivers impeccable style and sophistication.</p>
+              <span class="brand-category">Mens Formal Wear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 5: Killer -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#000000;">
+              <img src="assets/img/brands/killer.png" alt="Killer" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Killer</h4>
+              <p>India&#39;s first truly international denim brand. Killer brings edgy, youthful fashion with attitude — jeans, shirts, and lifestyle apparel.</p>
+              <span class="brand-category">Mens Denim & Casual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 6: Mufti -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#050608;">
+              <img src="assets/img/brands/mufti.png" alt="Mufti" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Mufti</h4>
+              <p>Breaking the monotony of pale blue and white, Mufti offers bold, expressive fashion for the modern Indian man who dares to be different.</p>
+              <span class="brand-category">Mens Casual & Athleisure</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 7: Jockey -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/jockey.png" alt="Jockey" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Jockey</h4>
+              <p>World-renowned for premium innerwear, sleepwear, and sportswear. Jockey combines innovation with comfort for the entire family.</p>
+              <span class="brand-category">Innerwear & Loungewear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 8: Sweet Dreams -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/sweet-dreams.png" alt="Sweet Dreams" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Sweet Dreams</h4>
+              <p>Premium nightwear and loungewear brand offering soft, breathable fabrics for restful sleep and relaxed evenings at home.</p>
+              <span class="brand-category">Nightwear & Loungewear</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 9: J. Hampsted -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#000000;">
+              <img src="assets/img/brands/j-hampstead.png" alt="J. Hampsted" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>J. Hampsted</h4>
+              <p>Classic British-inspired menswear with a contemporary twist. Shirts, trousers, and blazers crafted for the discerning gentleman.</p>
+              <span class="brand-category">Mens Formal & Casual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 10: Twills -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#f36928;">
+              <img src="assets/img/brands/twills.png" alt="Twills" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Twills</h4>
+              <p>Trendy and affordable fashion for the young and dynamic. Twills brings the latest styles to your wardrobe without breaking the bank.</p>
+              <span class="brand-category">Mens & Womens Casual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 11: Oxemberg by Siyaram's -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#000000;">
+              <img src="assets/img/brands/oxemberg.png" alt="Oxemberg by Siyaram's" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Oxemberg by Siyaram&#39;s</h4>
+              <p>From the house of Siyaram&#39;s, Oxemberg delivers refined formal and casual menswear built on five decades of textile excellence.</p>
+              <span class="brand-category">Mens Formal & Casual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand 12: Van Heusen -->
+        <div class="flip-card brand-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background:#ffffff;">
+              <img src="assets/img/brands/van-heusen.png" alt="Van Heusen" class="brand-cover-img">
+            </div>
+            <div class="flip-card-back">
+              <h4>Van Heusen</h4>
+              <p>America&#39;s best-selling dress shirt brand. Van Heusen brings premium formalwear, business casuals, and accessories for the modern professional.</p>
+              <span class="brand-category">Mens Formal & Business Casual</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 4: OUR RANGE -->
+<section class="tab-content" id="tab-range">
+  <div class="video-bg-container">
+    <!-- Woman comparing fabrics -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/13266799/pexels-photo-13266799.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/8844343/8844343-hd_1080_1920_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="fabric"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">Our Range</h2>
+      <p class="section-subtitle reveal">Fashion for every occasion, every budget</p>
+      <div class="range-grid">
+        <div class="range-card card-3d reveal">
+          <img src="https://images.pexels.com/photos/28133554/pexels-photo-28133554.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kids Wear" class="range-card-img" style="object-position:center 20%;">
+          <div class="range-card-body">
+            <h3>Kids Wear</h3>
+            <div class="range-price">Rs. 499 — Rs. 5,499</div>
+            <p>Adorable ethnic wear, casuals, party dresses, school uniforms, and everyday comfort for boys and girls of all ages.</p>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20am%20interested%20in%20your%20Kids%20Wear%20collection.%20Can%20you%20share%20more%20details%3F" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="range-card card-3d reveal">
+          <img src="https://images.pexels.com/photos/1391499/pexels-photo-1391499.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ladies Wear" class="range-card-img" style="object-position:center 18%;">
+          <div class="range-card-body">
+            <h3>Ladies Wear</h3>
+            <div class="range-price">Rs. 699 — Rs. 17,899</div>
+            <p>Elegant sarees, suits, kurtis, western wear, party dresses, and everyday fashion for the modern woman.</p>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20am%20interested%20in%20your%20Ladies%20Wear%20collection.%20Can%20you%20share%20more%20details%3F" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="range-card card-3d reveal">
+          <img src="https://images.pexels.com/photos/13266799/pexels-photo-13266799.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mens Wear" class="range-card-img" style="object-position:center 22%;">
+          <div class="range-card-body">
+            <h3>Mens Wear</h3>
+            <div class="range-price">Rs. 799 — Rs. 11,999</div>
+            <p>Formal suits, casual shirts, jeans, ethnic wear, jackets, and premium brand collections for every occasion.</p>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20am%20interested%20in%20your%20Mens%20Wear%20collection.%20Can%20you%20share%20more%20details%3F" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="range-card card-3d reveal">
+          <img src="https://images.pexels.com/photos/29251325/pexels-photo-29251325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bridal & Ethnic" class="range-card-img" style="object-position:center 42%;">
+          <div class="range-card-body">
+            <h3>Bridal & Ethnic</h3>
+            <div class="range-price">Rs. 1,399 — Rs. 36,999</div>
+            <p>Stunning bridal lehengas, sherwanis, sarees, and ethnic ensembles for weddings, festivals, and celebrations.</p>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20am%20interested%20in%20your%20Bridal%20%26%20Ethnic%20collection.%20Can%20you%20share%20more%20details%3F" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="range-card card-3d reveal">
+          <img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Accessories" class="range-card-img" style="object-position:center 50%;">
+          <div class="range-card-body">
+            <h3>Accessories</h3>
+            <div class="range-price">Rs. 59 — Rs. 2,599</div>
+            <p>Towels, Handkerchiefs, Belts, Perfumes, Socks, Wallets, Caps, Kids Watches, and Spectacles — the perfect finishing touches.</p>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20am%20interested%20in%20your%20Accessories%20collection.%20Can%20you%20share%20more%20details%3F" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 5: REVIEWS (Live Updates via JS) -->
+<section class="tab-content" id="tab-reviews">
+  <div class="video-bg-container">
+    <!-- Two women in boutique -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/1391499/pexels-photo-1391499.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/6566218/6566218-hd_1080_1920_24fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="stars3d"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">What Our Customers Say</h2>
+      <p class="section-subtitle reveal">Voices from our royal family</p>
+      <div class="reviews-header-live reveal">
+        <div class="live-indicator">
+          <div class="live-dot"></div>
+          <span>Live Reviews</span>
+        </div>
+      </div>
+      <div class="reviews-timestamp reveal" id="reviews-timestamp">Last updated: Just now</div>
+
+      <!-- Direct line to our official Google Business listing -->
+      <div class="google-reviews-panel glass-card reveal">
+        <div class="grp-identity">
+          <div class="grp-logo"><i class="fab fa-google"></i></div>
+          <div>
+            <strong>Maharaja Readymade on Google</strong>
+            <div class="grp-sub">
+              <span class="grp-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+              Ansari Road, Chowk Bazar, Bulandshahr
+            </div>
+          </div>
+        </div>
+        <div class="grp-actions">
+          <a href="https://www.google.co.in/maps/place/Maharaja+Readymade/@28.4039114,77.8555919,17z/data=!4m8!3m7!1s0x390ca6b59edde973:0x7ae8662317760b73!8m2!3d28.4039114!4d77.8581668!9m1!1b1!16s%2Fg%2F12603qgmj?entry=ttu&amp;g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
+             class="btn-gold" target="_blank" rel="noopener">
+            <i class="fab fa-google"></i> Read Reviews on Google
+          </a>
+          <a href="https://www.google.com/maps?cid=8856440968127581043" class="btn-outline" target="_blank" rel="noopener">
+            <i class="fas fa-pen-nib"></i> Write a Review
+          </a>
+        </div>
+      </div>
+
+      <!--
+        LIVE GOOGLE REVIEWS (Elfsight widget slot):
+        1. Create a free account at https://elfsight.com and add the "Google Reviews" widget.
+        2. Connect it to the "Maharaja Readymade" Google Business listing.
+        3. Elfsight will give you a widget ID like "abcd1234-ef56-..." — paste it below
+           in place of YOUR_ELFSIGHT_WIDGET_ID to make this section pull live reviews.
+        Until you do that, the div below renders nothing and the curated reviews
+        grid underneath is shown instead, so the page still looks complete.
+      -->
+      <div class="elfsight-app-YOUR_ELFSIGHT_WIDGET_ID reveal" data-elfsight-app-lazy></div>
+
+      <div class="reviews-grid" id="reviews-grid"></div>
+      <div class="reveal" style="text-align:center;margin-top:36px;">
+        <a href="https://www.google.co.in/maps/place/Maharaja+Readymade/@28.4039114,77.8555919,17z/data=!4m8!3m7!1s0x390ca6b59edde973:0x7ae8662317760b73!8m2!3d28.4039114!4d77.8581668!9m1!1b1!16s%2Fg%2F12603qgmj?entry=ttu&amp;g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
+           class="btn-outline" target="_blank" rel="noopener">
+          <i class="fab fa-google"></i> See All Reviews &amp; Photos on Google
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 6: PHOTOS -->
+<section class="tab-content" id="tab-photos">
+  <div class="video-bg-container">
+    <!-- Store visuals -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/7677161/7677161-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="frames"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">Store Gallery</h2>
+      <p class="section-subtitle reveal">Glimpses of our royal abode</p>
+
+      <div class="reveal" style="text-align:center;margin:26px 0 6px;">
+        <a href="https://www.google.com/maps/uv?pb=!1s0x390ca6b59edde973%3A0x7ae8662317760b73!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNaLKQrxJ02Huf6A1AOt-WpDitOaQ3kWAaaIwP8%3Dw520-h175-n-k-no!5smaharaja%20readymade%20-%20Google%20Search!15sCgIgAQ&amp;imagekey=!1e10!2sAF1QipO7AcIgS9DHrINw0Kj5lr8dayOpSN4ZpqmdzAHz&amp;hl=en"
+           class="btn-outline" target="_blank" rel="noopener">
+          <i class="fab fa-google"></i> View All Store Photos on Google
+        </a>
+      </div>
+
+      <h3 class="gallery-band reveal" style="margin-top:56px;">The Maharaja Experience</h3>
+      <p class="gallery-band-sub reveal">A visual sense of the collections waiting across our five levels</p>
+      <div class="photos-grid" id="photos-grid">
+        <div class="photo-item reveal">
+          <img src="assets/img/store/exterior.jpg" alt="Exterior — Maharaja Readymade" loading="lazy" style="object-position:center 12%;">
+          <div class="photo-overlay"><span class="photo-overlay-text">Exterior</span></div>
+        </div>
+        <div class="photo-item reveal">
+          <img src="assets/img/store/mens-collection.jpg" alt="Mens Collection — Maharaja Readymade" loading="lazy" style="object-position:center 50%;">
+          <div class="photo-overlay"><span class="photo-overlay-text">Mens Collection</span></div>
+        </div>
+        <div class="photo-item reveal photo-item-wide">
+          <img src="assets/img/store/women-collection.jpg" alt="Women Collection — Maharaja Readymade" loading="lazy" style="object-position:center 50%;">
+          <div class="photo-overlay"><span class="photo-overlay-text">Women Collection</span></div>
+        </div>
+        <div class="photo-item reveal">
+          <img src="assets/img/store/kids-collection.jpg" alt="Kids Collection — Maharaja Readymade" loading="lazy" style="object-position:center 55%;">
+          <div class="photo-overlay"><span class="photo-overlay-text">Kids Collection</span></div>
+        </div>
+        <div class="photo-item reveal">
+          <img src="assets/img/store/bridal-collection.jpg" alt="Bridal Collection — Maharaja Readymade" loading="lazy" style="object-position:center 50%;">
+          <div class="photo-overlay"><span class="photo-overlay-text">Bridal Collection</span></div>
+        </div>
+        <!-- Our own store footage, played inline in the tile -->
+        <div class="photo-item photo-item-video reveal" data-video="assets/video/store-1.mp4">
+          <video src="assets/video/store-1.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <span class="photo-video-badge"><i class="fas fa-play"></i></span>
+          <div class="photo-overlay"><span class="photo-overlay-text">Grand Interiors</span></div>
+        </div>
+        <div class="photo-item photo-item-video reveal" data-video="assets/video/store-2.mp4">
+          <video src="assets/video/store-2.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <span class="photo-video-badge"><i class="fas fa-play"></i></span>
+          <div class="photo-overlay"><span class="photo-overlay-text">Festive Collection</span></div>
+        </div>
+        <div class="photo-item photo-item-video reveal" data-video="assets/video/store-3.mp4">
+          <video src="assets/video/store-3.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <span class="photo-video-badge"><i class="fas fa-play"></i></span>
+          <div class="photo-overlay"><span class="photo-overlay-text">Premium Brands</span></div>
+        </div>
+      </div>
+      <div class="map-widget glass-card reveal">
+        <div class="map-widget-frame">
+          <iframe src="https://maps.google.com/maps?q=Maharaja+Readymade,+Ansari+Road,+Bulandshahr,+Uttar+Pradesh+203001&z=17&output=embed"
+                  width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Maharaja Readymade on Google Maps"></iframe>
+        </div>
+        <div class="map-widget-bar">
+          <div class="map-widget-meta">
+            <strong>Come See It in Person</strong>
+            <span>Ansari Road, Chowk Bazar, Bulandshahr, Uttar Pradesh — 203001</span>
+          </div>
+          <a href="https://maps.app.goo.gl/dUHVeM35PiduibGa7?g_st=aw" class="btn-gold" target="_blank" rel="noopener">
+            <i class="fas fa-location-arrow"></i> Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 7: CONTACT -->
+<section class="tab-content" id="tab-contact">
+  <div class="video-bg-container">
+    <!-- Storefront ambience -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/291759/pexels-photo-291759.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/3209828/3209828-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="globe"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">Contact Us</h2>
+      <p class="section-subtitle reveal">We are here to serve you</p>
+      <div class="contact-grid">
+        <div class="contact-info-card reveal">
+          <h3><i class="fas fa-map-marker-alt"></i> Address</h3>
+          <div class="contact-item">
+            <i class="fas fa-store"></i>
+            <div>
+              <strong>Maharaja Readymade</strong>
+              <span>Ansari Road, Bulandshahr, Uttar Pradesh — 203001</span>
+            </div>
+          </div>
+          <h3 style="margin-top:24px;"><i class="fas fa-phone-alt"></i> Phone Numbers</h3>
+          <div class="contact-item">
+            <i class="fas fa-user-tie"></i>
+            <div>
+              <strong>Nitesh Goyal (Owner)</strong>
+              <a href="tel:+919410434644">+91 94104 34644</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-user"></i>
+            <div>
+              <strong>Rajeev Goyal (Co-owner)</strong>
+              <a href="tel:+919756338999">+91 97563 38999</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-user"></i>
+            <div>
+              <strong>Ravinder Goyal (Co-owner)</strong>
+              <a href="tel:+919997260974">+91 99972 60974</a>
+            </div>
+          </div>
+          <h3 style="margin-top:24px;"><i class="fas fa-envelope"></i> Email & Social</h3>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:maharaja203001@gmail.com">maharaja203001@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://instagram.com/maharajareadymade_bsr" target="_blank">@maharajareadymade_bsr</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp Business</strong>
+              <a href="https://wa.me/919410434644" target="_blank">+91 94104 34644</a>
+            </div>
+          </div>
+          <div class="timing-banner">
+            <strong><i class="fas fa-clock"></i> Store Timings</strong>
+            <p><strong>All Days:</strong> 10:00 AM — 9:30 PM</p>
+            <p style="color:#F4D03F;margin-top:8px;"><strong>MONDAY SPECIAL NOTE:</strong> Timings may differ on Mondays. Before visiting on Monday, please confirm shop opening by calling +91 94104 34644 (Nitesh Goyal).</p>
+          </div>
+        </div>
+        <div class="contact-info-card reveal">
+          <h3><i class="fas fa-directions"></i> Find Us on Map</h3>
+          <div class="map-widget-frame" style="height:300px;border-radius:12px;overflow:hidden;border:1px solid rgba(212,175,55,0.15);margin:18px 0;">
+            <iframe src="https://maps.google.com/maps?q=Maharaja+Readymade,+Ansari+Road,+Bulandshahr,+Uttar+Pradesh+203001&z=17&output=embed"
+                    width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Maharaja Readymade on Google Maps"></iframe>
+          </div>
+          <p style="text-align:center;">Ansari Road, Chowk Bazar, Bulandshahr, Uttar Pradesh — 203001.</p>
+          <div style="margin-top:24px;text-align:center;">
+            <a href="https://maps.app.goo.gl/dUHVeM35PiduibGa7?g_st=aw" class="btn-gold" target="_blank" rel="noopener" style="margin-bottom:12px;">
+              <i class="fas fa-map-marked-alt"></i> Get Directions on Google Maps
+            </a>
+            <br>
+            <a href="https://wa.me/919410434644?text=Hi%20Maharaja%20Readymade%2C%20I%20would%20like%20to%20visit%20your%20store.%20Can%20you%20confirm%20the%20timings%3F" class="btn-gold" target="_blank" style="margin-bottom:12px;">
+              <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+            <br>
+            <a href="https://instagram.com/maharajareadymade_bsr" class="btn-outline" target="_blank">
+              <i class="fab fa-instagram"></i> Follow on Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TAB 8: AI ASSISTANT (Realistic Human Agent) -->
+<section class="tab-content" id="tab-ai">
+  <div class="video-bg-container">
+    <!-- Dressmaker tracing pattern -->
+    <video class="video-bg parallax-bg" data-speed="0.15" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1280">
+      <source src="https://videos.pexels.com/video-files/6460176/6460176-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <canvas class="tab-canvas" data-scene="neural"></canvas>
+    <div class="tab-inner">
+      <h2 class="section-title reveal">AI Assistant</h2>
+      <p class="section-subtitle reveal">Your royal fashion concierge</p>
+      <div class="ai-container">
+        <div class="ai-agent-panel reveal">
+          <div class="agent-wrapper">
+            <div class="agent-aura"></div>
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Royal Assistant" class="agent-real-img">
+            <div class="agent-crown-overlay">
+              <div class="agent-crown-base"></div>
+              <div class="agent-crown-point"></div><div class="agent-crown-point"></div>
+              <div class="agent-crown-point"></div><div class="agent-crown-point"></div>
+              <div class="agent-crown-point"></div>
+            </div>
+            <div class="agent-particles">
+              <div class="agent-particle" style="top:10%;left:20%;animation-delay:0s;"></div>
+              <div class="agent-particle" style="top:30%;left:80%;animation-delay:0.5s;"></div>
+              <div class="agent-particle" style="top:60%;left:10%;animation-delay:1s;"></div>
+              <div class="agent-particle" style="top:80%;left:70%;animation-delay:1.5s;"></div>
+              <div class="agent-particle" style="top:40%;left:50%;animation-delay:2s;"></div>
+            </div>
+          </div>
+          <h3 style="font-family:'Cinzel',serif;color:#D4AF37;margin-top:20px;text-align:center;">Royal Assistant</h3>
+          <p style="font-size:0.85rem;color:#D4C5B5;text-align:center;margin-top:8px;">Ask me anything about Maharaja Readymade</p>
+        </div>
+        <div class="ai-chat-panel reveal">
+          <div class="ai-chat-header">
+            <img src="data:image/jpeg;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/xAAC/9oADAMBAAIAAwAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE88YU00E0UIIoYIIInI000000kEEEEEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEh73bF2z/wD8st8MpQhmqgc87DuzznPCQI9nCTVDLJAAAAAAAAAAAAAAAAAAAAAAAAAAB0co087n8419889wBBBU+csUgNd8QXGoQ4My4TfL/JJAAAAAAAAAAAAAAAAAAAAAAAAEk88NdriGQkdE8wco08rLrPXTDDDHwOsElAskNoAhQQcJAAAAAAAAAAAAAAAAAAAAAAAUm8vl4ZsE8MRRxxxBLBQIo8MUDfLrDGmWz/oncvXwjt6KAAAAAAAAAAAAAAAAAAAAAAAB08s9SE85DsBEQ0cuVveT7PRnAYO4UDtJPpy76G1KnJZZAAAAAAAAAAAAAAAAAAAAAAAR/wDNKyPMOqJNT/rQp7BbN15CDE9GeKeJrCjhjbc74lijsAAAAAAAAAAAAAAAAAAAAAAAAB+dde4xTXjyaPI0mrGk32ZAkJzmlHjAhAZdR6+AtbXmwAAAAAAAAAAAAAAAAAAAAAAAAFTqsk6lgnMdq4RN3mTlo9mrn+JeX1LDgvYJAar1+ACCwAAAAAAAAAAAAAAAAAAAAAAAAUYDmYBwzjcCMcBTSNCGX9pj95/bSUk62NfDbkVQOCYgAAAAAAAAAAAAAAAAAAAAAAAAAACyoHqp1vsQQAGx1Y9aZLMdDVYYFAyJ9l5SKBfYOoYQAAAAAAAAAAAAAAAAAAAAAAAAAAHCAsZ0PfnjopAeYTTTFarg/wAc7DFAGELf6DJEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGGGGVHEkAEAAAAAAAQAAAAAA++AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABV8D8EW8BMcAOBPcAeEXMg8X9kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCeDsFUMA/EB0CWsAulWcDeh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAC/9oADAMBAAIAAwAAABD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333X333333333333333333333333333333333333333333333333zLbfTzzDz37LvLb77nzDzHDzzjTDDjD3D33333333333333333333333333333333330LI1wvNpwy678P8ACw9CY8o5G/SbbGmdYJRks2t420999999999999999999999999994iQ3l8AmJAZV88pDhFN+VvqGLyCzf0ETfru86THH/e09999999999999999999999995648DldZrgfCq3uLinzGMFRXfw190SQuCSzC3yDfuDYy099999999999999999999999pN8NPsyv8SXghBBBR2h7A7y/y9DLgi0myoLdx9jesZ3M699999999999999999999999sB8EGnImiRG3/AJyl/vhHAKXJ/wCLF7hfK2pjs4PdLCfKYf8A99999999999999999999999to8ct3DcXK2/hQAUQBQhydiqx6otxe/PiBZE/yoAVHztr999999999999999999999999Chzc+JYVKI78a0K7QF4UjiLkUEGK/rwJAcbFgR83fgq9999999999999999999999999JGKddYTVUBYGoscNMy/SD4Tah0n6eboV9p2sCZZYZyH9999999999999999999999998s4J9eZi/sw1pQZKvb4Zs9aSbaU1uPjOBu+OF835eyW99999999999999999999999999915c+G7DOhFSw5VDhobSvL/CNFC60yMP6GdUJFDbtc9999999999999999999999999996vPb6GpqZEmUtmSCAGW59PV6fw0OfOc5cX+9Mc9999999999999999999999999999999999999c8ks8U8s9499995599999959ZFd9999999999999999999999999999999999999999998Pd/c8u9iepr9Wm9m8s693Mpj99999999999999999999999999999999999999999999Hdm08K16U9o9wy9u8429+6ud99999999999999999999999999999999999999999999999999999999999999999td99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/8QALhEAAgEDAwMEAAYCAwAAAAAAAQIAAxESITFREBNBICJAYTAyUmBigSOgM1Bx/9oACAECAQE/AP8Ac7yHMvL+u45lxLiXl5fqsJ/7Am0aqeIKgJAtKjKoC2hYeCRMiNmmbczvNO83E7x4nd+p3TwJ3jxO607rTuvzO4/M7rRGd2AlV8VsN53G5mb8zNuZm3MzbmZNzMm5mTczJuZk3MzfmB53R9zuL9wVV+53F5mYgqDmZrzLjn5tV7nQ6dKK3cSq13PRVLGwirTUgHUyoMXIH4dFbLcyo+TH8C/q/rrkZkZmYpY+YD8uq1tOtL202bnoqliAIxFMWG/mUdXvKhu7Hrf1ouTASq2K2G/UW9NvWPRfoDaCoRErcj5VZrnboD4tKvtRV6ACmlzuYSTvKXtRm/BwbHLpQFgWMdsmJ9A6KCxsIVINpb02EVciBGXE2Mp4A66whbmWEt9QKeIENx7YUI8CBf8AyD5NT8516UlycSqbuZSS5yOwjvkTxBKntpqstFRVF2jqrJkot0tLQUmOoEp0iW1GkrMNFE8iVPZTC+TBBTYi9uoF9AIaTDxEXtoWO8JJJPkxVJIEKEEiYmYtAjmGk/Ep08QSd4ysxJgpNMG5gUwK3M7b8xFxBJMOJJJMBSIQdvktfInpS9qs0AJI5MqHFQg389KYu4Eqtdz9SmoAyaO5YylrTYdaaX1OwmbM1l0EuADGNyTKSEsDKpu5lNL6nYRXuSBsBCNTAtztLCmPsynexJMrNsIBETAFiYqlyT4j07WI1EUMdhP+NfuUy2pYyqxAFpdooZUJO9pk3MUOx3lii8mU87ksZVBIAE7J5go23MVLG9/k1gd7dH9tJVlFdSx8RmyJPSgBnfgRUzYk7So99BsJaUdyORCNSIq5ECOCAFEJFNbDcwX7R5JiU/LaCI9zYDQCfmb7JjnFQo/uUT7iORO2xY+BECi4GpExuxZjpM8nA8XlRSz6CALT+zKlyFXneOwUBR/cVwBY6iIwJ0EwyYk7CE5EADSVAS20AVBcjWMSUEVCYp1sBBcsSdAIWuwAjhi2kACC51MBvrb5VQEqYguwH3Kxu4Ec4IF5360mxaO+ll0lpaKSpBjJkbgwkILDUw1dNBrNTFqYi1ozFtzKYsrGU1xBYw6kmDQiFyfMRgt4z5aeILAgw1YoycTYlj40EOpJglN8SYz5ebCA2trDVn5iNYV210EaqNhEqAExql/EBOlhaF2OwmJO5MUWHy1T/JfxFGVRmOwjtkxPouZczITKBz4MuTLniXPE14nu4lMEoRKgNgoExbiYtMG4mLcTFpg0waUlIbXiVbmwEwbmYHkTBuRMPsTAczBf1REAN47K2l5in3LJwYLfpmvE90HzB5jLihA3MxI8enSW+pYQLBpLmXMyMuYrkX0mTTJpcy7czWe6azXmC48wC+5hX+UsOYLcyy8y6QBTGsolxxMv4zI/pgJ4g+cDDCAYUE7QnananbMwaYPxArcQK3ExeYtMWmDQK8waYNzO2eZ2zzO2eZ2zzO3/ACnb+52xzO2OZgJ21mC8TBeJiOIBaNrLfsEczk/sM+BD+wh4h/2vP//EADMRAAICAQIEBAQFBAMBAAAAAAECAAMRBCESEzFREBRBUgUiQGEVIzJCcTNQU4EgMKBi/9oACAEDAQE/AP8A2dAZMNNg9CYKiR1wexhraFT2mDMeGPtOFuxnA/tM4H9s4H7TgbtOAzgM4DOH+I3aAEeGJiYmDMHwwfHB/sqKWIAlXw4MAS+8OketSwtOAJpabrjZaCOuJXTav6kUzko2OKqHS0kf08T8Op+8/Dau5n4bX7jPILjHGZ+Hp6u0/DqvcZ+H09zPw+j1zBodP2g0Wm9k8lR7JqaNNRUW4Bn0mg04utJYfKJ5TT+0QaTT+wTytHsE8tSf2CDTUD9gnJq9gnJp9onIp9UE5FPsEFFPsEFFA/YJZplboAIdC/ZYNDb2WN8Pu7LBobR1UTyb+0RtHZjZZ5W72w0uvUQj6sAk4AyZodMtdQJXczE+I28GnIHVthNFXy9Og9SMnwuuSlCzGW3aq5WsX5UUZE0VjWaZGbr4ZEyPE/zMjwzMz4lcbLuAHZZo6BTQvc7nwMEBEyIenSYHaYHaHE2mftMGbzfv4GGpYaUnl0l9dK9VMsqzuAAIfqvh+nDEWHGB46zN2rpqHQbmAYAEusWtCzGVJZrLOZZsg6Ca9hXpeEbZwAJpV4KK1+0BHhgTtMweP+5qbuVSzZ3xtNDSbr+Y3QHJmYYwY4ilumJnptNpvMmZ6bzAn8eOYYDMzrMCDaOgYbiPpUfqZf8ADcDKNn7GEEEg9R9T8Nq4a+Li6+ngykEtxYE0INupuuPfAmQBLGbWajgX+mh3MRFQADoJrfzdVTV2OTAAAMQbTExMTEwJiDUVG41A74m0+JOXeulfU5M09K01Ko/2ZkQTIhM9ZbatSFmMrtD1hx0M4szP2gz3gbqcQMT6CBmltxrUsQMSq82oHAE1YvZAKzg5lZtCKCQTjcws49ROYQN3AhvX/KI+qrAJNsF6MM8bS24b7PH69CPqPUTRHNCnGD4a63l6d+5GBNDXytMm253M115VRWn6nmloFNYHqdyY3TrNIObqrbT0GwmQJdqrbrOVR/szT3X16jk2nOehgaEmcUs1tKHhJmp1qLTlGyT0nw2okNc3U9ISACSdgOs0n5+qsuIyBsIdh0j6ylHCFpkEeD2LWMswAletockBpqLm1V61J+nMRVSsL6ASy6tELSvUo6q2esN1QnPp7mHU0pvBr9OTsZrNVzmFan5c7yq+mtEUHoI+up9cneeYr7GG+vHrG1FeN1Bi6rTk/wBMS+3nOERQBn0lfNVAqp0EZNQw6TUV2pgv9QoBYD7ygKK1CnIA8NeTbfTSO+TGK11nPQCaRDfe17dAcL4atwlFjfbAmgr4dMD6sczVXM7imvdj1M0+mWlMDqepms+XV0PAZma3UlAK0/WYKKaaS9oyxnLZnUY2Y7SpFrRV7Ca3UIlTJncjYTQLwUDuZq9UUARN2bYS6jlojHJcncxHIRf4Ee/gUkmZfV2EnIQTUhCwSsbjrifDazxNZj7CNZgEtNRqPMMtKDbMttTToqgZIGAJp9WbCVcYIj2VICWMGdVb6hBNUlIISoZb1mgpV3YuMgTgoAzwy1qrdTWqLtnecmrbaWtpqlJIEDJqbRnCoJrTp8KtQGR1Imieuuwu4JwNofiKeiGN8QNhPDXLdUzqVKj6n4bapQrn5psBNP8Am62230GwnxC0kJSp3Y7yioVVqoHQQnfpPiTHkBe7CXagUUIi7sQABNFQKwXc5dtzC0+I/oR/awiOCinPoJdeK0LE/wATT2K1tl9h6dIgfV2cT7IOgjcHnlHQIu0v1gHyV/Mxl9BWsM5y7EQYqpBJ6LNLWbrTc42/bPiK/lAj0YQ6yla1xucDYTUtc+GYYBOwhtFdS01jLEbwUcmixju5XczS2V06ZSSN94zW6psDK1jqZpQiPbb+1dhNNW1zm5x/Al+mYuLEOGmpqsCcVjZJOAIt60UBE3YytBWjuTliMmaR0rpJLYJOY1lt7cKkhfUypUXUHfAUdZbqK1XYkntmOCULMep2EblpWqqMuREpWulmYZOJp2rSkEjJJjFr2wowveOnLOA31WgsFd4JHXaXuq0u2egnw9QumLn1JJmlU6jU2XHoNlhhM1tbXV4HUGaekh+O3cjoJzB2hcS9UsqZZTqeUnBYpyOkCvqXy4wnoImh+bdvlz0ihVAAEu0i2WcQONt5VRXV0GT3M1bcV1K/eauw2MtC994mUQKBsBHy6lSMgxdMqHIWaimy4Lv0lFBq+bq3ePxuhU9DE0Xc5A6CXOaqGx2xFyyV0qf1btEHAgUegjHYTU0m5RjrKtLy8EjiMNZYMCoETREH5unaHNSE8AAAldv6sLlmMp0bj5mwSZdo7LFG4Eq0YTq+8ausghnJ2i6ehSOJiQPSHUVoMIqy5+Ns7fVA46GPqwdIasYMvsNWjqqX9TACaWrk0qP9mZG02nCMzgUGctZyjOTG06HBKictQPScCe4QisfuE/L94ma/cJrLEXU1sDkCaQoXe12AJOwM51Of1ic6n3ieYp9059Hec+jvPM0TzWn+81t9b1AJnrvNC1deXcHPQTzVXYzzVfsaDVV+lTQ6rtUYdVbnameav/xianVWuvAVAzNNXbUeIICZz9T2UQ26g9bFEbjPW4QlPW0mZp/+jHKkjAx9Yx6Sm4WahXfooGBFuRujQEd4R95iGfNCxHrONo1jRssSTmcCiGtDOTXBUnaWadHI3gprAGwgqr9onLq9onBSP2iYr7TNcynacSe2OK3GCkLBQAqekW1iccsws5/ZCbPRZm/2wrqe0draxliP4lStdYTmcmz/ACTk97Jya/V41VIH6o3CDtgziP1rAnEAxFsdejRdXYvrF17gdYPiB2yJ+IJ6rBrKSJ5iluhnmKM44obqB+6G+jvObR3huogvoMGooMN+nAG08zp8HYzzdA9DDrKvbPO1+yedT2Q61P8AHPPD/GJ54+wTzz+0TztnYTzlv2nm7u8Oqu7zzF3uhvsPVjHdn6mIWUbHE439xnE3f+05Pfwye/hv3mfv9Ee0PoP7eP8AqExt4DwHj6Qwepg7/wBtz/wH/RmZ8M+A/wCB6GDfA/8AV5//xAA7EAABAwMCAwYDBgUEAwEAAAABAAIDBBESBRMQITEgIkFRYXEjUIEUMDJAUnIVMzRDYCRicIIGQsCx/9oACAEBAAE/Av8A7DR72sF3FQ1Ec18D0/4G1jUC9+2w8loEbhC9x8/8iKzWYU9RHEOblHJm0OB5K6yV/urhZBZBZBZLJZLJZK6vxurrmufDVq7ZiLAe8UxrppQPMqji2YGN9P8AIbhZBdxFrfNanO6SowB6GyoYnMpYwT4Ih6Jcsit0rdKEq3QtwLcC3As2rNqu1XasmLNi3GrcatwLcC3Qt1by3lvLeW8t5bymqtuMuKq6h08pcVo8F5NwrdW6VulbpW6VulbjluFbpW4VmVmVm5ZuWbluOW4Vm5bjluOW45ZuWTlc+a5rmua5rmua5q5Vysll8+cUffhzVRJhC838FSt36v63QcQFuOWayVwuSuPzGrVX9sfVNaXOACo4NqFo/MXWZWZW45ZuW45bjlulbhW4VuFbnot1bq3VmsvnD3WCyPY1eXGIN81o0XMydqqrWQjrzTtTmLrqgqvtDOfUflqmYRROcpZDI8uPitJp85cz4fnLdq6yWSyWayQehKg+/wA2JspHXPZ1SXcqLBafFt07fXs12oCPus6qGnmqn3PRV1HHBTcut1on938tq9Rc7YTRkQFQwbMIHj8oCDRwufml1K7syvwjc5RAzVY/cmNxaB2NQr9vuM6qjpH1L8ndFFC2MWaFrT+TWLR47RF3n+VmkEcbneSmkMkjnLSqbOTMjkPlQKv6oPCEjfmchIR59nVZcIMfNaPFeQvPYr6wQssOqpad9VLc9FFE2NoA4ao/cqQPLkqGPCmYPyusT2YGD6qKMyPDQqWAQwtb2rq/ydryEDf5i61kevEWRAWrS5TYeS0yLbpxxqZ2wxlxXxKudU0DYWADhI7GNx8gmjfrP+10BYAflCbBV827UOK0qk/uOH52xVuNZqMkcxaFRTGeLJWKsViVirKyssVYKzVZq7qGPkh8xlv2ZHYscfRc6ir9ymDFjR6cCbC6rql08uLei06kETLnrx1OXbp/daPFeXPy/I19ds90dVp9Q6aO5410u1A4qkhM8/15qNmDQB97X1wgFh1Wm1Lp43E+f311W1ggj9Vpta+dzgVdXVTprZpM1BEIWYhXKuVzXNYlYuW2VtlahUimZ15rS6l1RfJYBAMC7q5fMZL9nU5cKcrSIsps/LjqlXg3BvUrS6TN+47sazLd4YtLi24L+fEuDRcqq1WxsxR6rID3lDK2VgcPuqqobDGSnvdPNfzKoodmFo46zNdwYFpEGEWfifvamdsMZcVLI+eX3VDBswD1+6v2JZGxsLiquodPKStLp9qK56njftZlZuWblNPtRlxVXUPqJblaXSmKG/msD5rBBqx+YzdnWJcpGsC0uLCAHz4TyCKMuK79XU+5UEQijDRxPJSHfrP+1lEzCNrfIcCbC5WoV5e7bYqLTS/vvWp0bY2BzVo0vIs7dTXxQ+PNfxh91DqML2XJVdVmeT0WlU+5Lkeg4zyiKMuKc41FT7lRMDI2jjWVzIBy6qDVXmUB3QoG4v2amujh8ea/jD7qHUont5lV9WZ38ui0un3Jr+XHFalU7EXLqtHfJKyQuPisFisFgsFgqmphgHM807WHZclTalDJ+IrU63cfgw8lp1Pv1DR4eKbCAAFtrbCnrX/bwwdEwAtCxCwCxVlVVsVOOfVO1t1+QVLqkMo7xstTrt12DTyWnQb1Q3yCbg0ALMLcC3EJDdA/MJDc9h5xaSpCZ6s/uUTMGAcNWqsjthaVS4s3D49ivlwpn+y0yPcqb/Xjqdd/bYtOoi87j0AAq9mVLL7LSHY1J9u1qNaIWYjqoKeWqkuV/C4hGVIMHkArqtNh2qcevHWP6b6rSYs6gHy411WIGeqihlq5Lp0e1OG+qp/5MfsrKystQrBA2w6qCCWrkX8JiEfNTDble0HoeGmU+3APMq3B7w0XJWoT789gtPg2qdvmnva0XcUyrhe6wd2KytZAw8+aG9WSqHSogzvKrjEMxDTw0WLBhk81msynzYMJKgvLXtP+9B3JZrMrMqs1AQtPPmgJqyVR6VGGc1Us2pXBp4aRBhFn4niTiLlRyNk/CrOUYd4/L3dEQexqEu3Tn1WlRZz5eXCqmEMTioGOqqn63TGhrQB2NZksxjfNaNH3C/hqNaImYt6qipXVEuTuiYwMaAOE7conj0VIcKz69mpnbDEXFd+qn9yqaBsMQC1KuxG2zqmUz5GOkPQKkizqGj1TRYW4TTshbclVta6c28FokdmOd58JpWxRlxT3SVlR9VS0zIIwFWf1v1VP/Jj9uNXWxwMPPmry1c/uqWnZBGAtTr8Bgw81FTSTZPPRUsW5UMZ6pndaB6cJpmRNuSq3UHzOsDyWmwb0/PwUkrImXKq62Wofi3oviwvBKophNA035rkq3UI4RZp5pz5KmX3VFRtgjHmtQrGwMsDzUcMlS4lbfxsPVQRhkTWqye9jBclV+oGQljOi0hmU5PlxJsLlVuphvdYhuVEtupKoqDYjHLmtSqxA3EHmoaaWqc5yZFlMGDzUMDGRtHosGqR8UbbuVfqLpnYR9Fo8EkbLv8fmUluxrMvRi0iHCG/nw1apyfthaVTYR5nqezrD7zY+S09mFO1VVQ2CMlNbJWTqCFsUYaONk4bdd/3TTcA8LJxAF1qVXvSYg8gtIpLN3Sq+ubE0taeapaeSqluVXhsFGWDxC0aK8hfwqaqOBvMqaearksFUQbTmt81pzMaWP24arV7j9tq0qk248yOZ4VvKsVOfgx+yLrKs1RrLtZ1Usr5HXcVo9NZm4fHoq+vbCwgHmqeCSrmuVWsbTUJDVo0eUrneXCoqo4W8yp6iWqksFPDtWb4rS4duDIrUqwyyYN6LTKD+48LUaHdju0cwqepmpXWU2pzScgpWydXrR6bI7hCrKpkDDz5prZaydfZ2UtI7zxWlx7tWLqwU00cTbuKq62Sofi3opqYwxtLurlocYxc9d1PlZG25VdqjpThH0Ukb2i7vFaJT8zKQq3UGwMPmmNlrZ0WCko3W8lpUedUHeSup6lkTbuKq62Wqfi3otM0q1pJEGgfMntyThY8at29V29bKnZhCxvkFUzbUTnKBjqip+qY3BoHZ1E5VjkJGxUzSf0qpnfVTWCoKMQsF+vZ1Ru3VAqifnTRn046pW4jbaUwZPCqKxlPAGM62UMMtXLdU9OyFgaFrZtFGtHexkBJPiqrVGMBDOqAnq5FR0DIG8+qq3Z1tv91lE3FgCr6gQwnzKoYDUT5FAWFhw1eMtqMvRU2pxNgaHdQFU6jLMcWKm058nfk6KQD7Rj4ZWUtWylpmsb1soopauVUtOyBgAWtH4FlozmMY8kqq1VjAQzqvj1cipaFlPHkeqN6is+tlXTCmpgwdbLTaYzS5O6IWAtwlooZOdlHp8DPBam7KpsOijnjpKNvPmQvjVsyoaEU7OnNaocaYrRS0PcSVU6nFEDbqny1FZJyVBpoi7z+q1mTKcM8lpkBZStCqJmQNu4qqrJap+LeioNJt35FqDsqnEeHJNqGUlGznzsvjVkyo6NlOwea1c2oz7haI5gMhcVU6rFGCG9U+SorJOSoNMEQDndU0H5pL14Tvwie7yCombtZf1vw1eoudsLSKezdw+Pa1JpbVuUlVLM1rFptBh33jn2tZgyaHhaPUjExkq6rq5kLCAeagppKpz3n1Ra9j+ip6WapeLqmp2QMAA4avA6aJtvBNiqPwi6ptKkebvUNNHCO6FIbRuPooRuV3/ZHkFqFQZ58R0Wn02zCPMqysqqjbUMsV/BXZdVT6ZFF16p8fw3AeSna5s7+XioKWapfzuqakZCwALFarTOlh7qbFUDugFU2lSSG71DSRwjkFqMm3TPWkx5TOefDmq6Y1FTYedlQ04hgaPFW7Fc1wqHKKKeoIHNUVG2nZ05rmtQidNAQEIahhsAVBpk8p76pqJkA5DmnkhpPonk1FZ7lS1baWFvPwUs09bLYKh0wQgOd1Viqxj21L7+ahgnqXAc7KioY4G+q7q1OLepS0eabFUMNgCoNNmlN3qmpGQjkF3k3L5pKFZapJjTOHmtGZ3i9TSCONzkMqqp9yomBjGgdqroGVHPxVNpkURuQrAcLKysrKSIPYWlVNLLSy5N6L+J1Nrc1T0k1VJd/RQwMiZiAn0EL3ZEJkTGDujjZbUf6eNYbU0v7VpQzrPotTqdmAjxK0un3p8z4c0OXG6ur8JKGB7si1RxsjFmhXV+G3H+njrknJjVDOIqI26uuFpdPuzZnp2pqOKU3IUUEcf4QslkrrBn6eGS1Go26ZyilMcoeF8eslVFRsgb05rJZKakildchRQMj/AAhc1isVsR/pQZ6LFWKA+aWUvVa2/lG31WjstT39VrFRZojHitHpv7h+n3F1dXV+N1dPY14s4IUUAN8U1rWdArq6urq/Z1E/6Z/stG5VN/8AaVqM5nqMR0BWn0+zAPPt343V1dXV1davJlUEeSbk6zVQwCGEK/C6usldX4c1ZyxcsXLFy1qbviMKCB8zw1oVHQCBg5c1g5bZW0VtLbWIVmrurJqzCDvm5aCtad/qy3yVJ8Kkv6XUrnVNV9VTxCKJrfvLq/b5rmrFWcsXLErFyxK1Fh+yv9lHK6M3C0qkdPLmegW25YOWBWBWBW2VtrbW2ttba2ltraW0EYhZaj/WS+60ej3ZM3dAttq2wsGrFqxasWKzF3F3VkFkFmFkFV1bYIiVI91ROT5laZSNgjuR3lms1kVdy7y76s5YLBYhYhWHzc9Cq34teVqMuzSMYOpC0enyfuHw+8srKysrKysgF3VdXV1kslkslkqsF9PI3zCbRzGTHFUMH2eEN8VkVkVkVmVk5ZuWRWRVyuauVdXV1fhV6WJpcwVTQNgjDR2bccVZYrFYqQiNpcVqNaZ5LeC0Sk3JNwjkFgFiFYLkuSyCyCyV/nbvwu9lM/GrLvIqWaSrlYPoqOl2YGtt4LBYlW/NiJgN7duysrKysrKysrBWCsFYLkuSu1EhXWSuslms1uLcRkWraiXnbaUOZWmxbNM31Vyrlc1zVisSsSgCgD87d+F3sqr+e/3Wi0Re/dcOXCyLVgsFgsCsSrdu/G6vwurrJXV1dXV1ksldZLJXV+HNXK5rmrlc1zXeVnKzli5YuWDlg5YFYFbZW2ttba21trbCwC1asbBHi38RRjkc0yLTYN6pb6IMAFliFiFb/AqnRd2fMHkoIWwxho7VlZWWKxCwCMa21trBba21gttba21trBbawW2sFtrbWC21thbYW2FgFgFiFiFiFiFiFiFYKyt+QqZmwxOcU4yV1V7lanhBDHA36rQabGMynx/xa3y7Wazck2mlaTSCGAzP62U7jWV3uVTxiOJrfT/gPUqoU9O4+J6LT6d1XVZH3WrziCm22+K0OlykMp+n+MfGmqZWh3QImensSbi6Y7JoPCpcWwSEeAUEVRLE1+fUKCGVju87sVdU5s7AOjT3kx2TQeOoPe1jMfEoRVOIOSp6l2W3J141Qft9zqqSo3Wc+oU87nzCOP6pvIDg44tJVDU7rpQf1KolEUTnKgm3YL+p7D6t32sfp6djUJHtwDT1IWzUt/8AZU1SXOwf146hI5kJLU2mqC0HPwUEcjPxG/DWardnwHQLSacU9NmfdahOausxHQFUUAgga3/Fyo5xFVz38gpqj7SAxg8VE3CNrfIcKz+ll/aqWqlbAwBngoJ3yHm23GRwawlQRtmjle7/AN+SoJcmFvkeOo9If3qP8DfZVws+N46pv4R7caxrqd+5H4qjgwbmep41rsaeT2ULfs74pPBw/wD1Vx3HMhHitP8AhyyReQ41Uu1C5yEI+yk373Nyo5dyEeY68dR/FF+4cKsYVVM4eLuOqf05TKuXBvw/BQSukBu2yq5tmB71SMNRWt/ctUqhT0+23rZaJSF8m67w/wAZgja+rqL/AKQo/wDST2P4Sgb8Kz+ll/aqOeAU8YLh0TJonHukcdQeSBEOrkzT7NHfTY/slSPJ3HUjZsX7k2shDB3vBDKqnabd0djUv5Si/ls9uOon+Uz9TrKogvTAfpWnB8rzI/6J3w6+/wCuw41vx5mQj6r+H8rZqlH2aoMR6Hnx1I2MZ/3BGth81GH1FQJCOTenHU/5BUdRT4M7w6BRyRv/AAla7JjTY+a0fCPdld4BSyPrav6qlgEELWD/ABlsbWuLh1KkiZJ1QFhbg5oc0gr7FCo6dkZuOJiaXhx6jg+Jr7X8OMkTZBZyFHCE1oaOQ7D42vFihyHF0TXkE+CIuFHG1gsE6JrnNceo47Tc8/HgYml4d48ZYWS/iQpIgg0N6cZI2yNs5fYoVHC2Pov/ACBpwYU177YjxWi0GHxXj/gWpp2TxlrlBo8LHXKa0NFh/wDUC//EACgQAAMAAQQCAQQDAQEBAAAAAAABESEQMUFRIGFxMFCBkWChsUBwwP/aAAgBAQABPyH/AOw0f5EL2pU/8FbSVZsIjkFx/kWwjs9okNSE0Ji9ElKUpdaXQ9h79CCPGb6KysoouhkSRG8R/wCwmLlJfpUpfpUv8KauRv5Gu2iVfgM8AJciZPQfgBqYu09w+4fce8l5jeyR0M2UUUWI4Ihn/JhjC2L8BnoHsFpntPae09h7NL2HtPcewybj7D3CdyIF7l76aVgUN6qQgTv32K3HbDb7L2H8SDbMEhLQoadaDf8AxCee08b6TELeVf8AghNWTWj2nvPYe7wvVj1Hq0l6ibojoVldCf3dZNnJdY48tk2Vtjyf0EweB7fkfVn0WMfGBh2WMMYzNvO+NKUrLpSl8JpNE8UsII6PgfA+IlaFm33ZIR4nUySPiBPwsFjcM7Rc8Av+ms0hPovwmsluNx6VbsT+WC+hCE+hCa0pdc/QyZ1k3BWthGtvubZFMeKnHCOUKEJ+FrgUjYMtwjkj2lRxWeN+tBz3sHEe70bCUi8IQaJ5QhCa3SE8qbj8qUerexEhyMCd+5JMDNvG5W0jTEx4Njszv+yxHcmqJ8XfRv1LWy2EWbsUBZmfCl0QNopv44LpPrXV/Sr06T7i+4b2vccA35vMoWW7qxDMwJctpv8AoT1mZ0+ewdbsFLOvp0ut0utB+hljGxNfieE+lPKDNtIyPojIyPo9BRH0R9G1Qi9I9WsVp+ZPYvYRLTF6mYMuF9x6vGgPZhAF9Ami3tsjucwJas9aH4lZ+y/4VLXwWc7Z4E5cZBK9hLSeEITxsfM4KQtbpdOBaVobKUN3fY6Kb4DSSnWExl4MrsOyvA+Ue3QEvUT7/cHsOrj8cPeW0VmW/XJwMlYTqEklNME1e0Ztrvq6MwhD+MXePiMzSeDmvMwWzLBMXMzrX225kK+iQerXMzBRt1tgUjMpXpSiaez1omXQ9Xu7HGi4RBVoJELkpRlLBdJ6BtHu+w3sucISW3z0HyPaJRKfcGT8ao2WTGudLTuD5AKk2WrQ2x8A+IjRTthDE3BD2RN/yPb79+F0wLWsh0cDQgmkMmcTGwJY0ZJwUwKiuFomNqand0BSk2ZPBc1kOrgt0JpDamxMlWMxKISrPkbmzNnEkH7C9yeyexK+Sexrn6G0cCyITK2BGysGEMWyg1FJijXekMFrgz7GQSo+BnBeh14RCGg9+FM63E2MibJafoL6OCKL7e3EJ8H0uiRZoQn4QhiX45MY52eFLzsLT8aKkbrvkm3AsiUR8SMiyvFkfmZESmXbw2jKJNkuxODla9a2viYRwYQd480N7WUf0ATwrfXZle7LliZem5srQN2VzXIUZGKJDFvxsQvJZGqFG7Z8i+T8iegym5brO1IYJ5lspiLcZVNwMBRRFa0ulZzVt1nYsEY1puzIVwaR9C9hRcpMtwIX7e3BZ58P0EZ3tWjCvMwXL5DZaXhJOTJ91tHAxOzO7aiIolp7FGM+PixTjA3zWCNLMyLcz2MciLTqtBK02RB1M/pzK/0mjhtkYXY8BQVmZ1irTfAXyLbCyLMyxb8wLPkGe4Ai6dEUbDMkRcl7MhjfEhprliDzonucYTI0m7GmgrybbovfHI850yX7bE8pnEXrhEDnMPQN+4UmiNoRe3+yNkwK/bR7ypmhI22PyoLP0Ijk5JIf/wBYdbBfcVRZHvr/ALZRdcWMlNwjFHR5CR3eR5Hng5i6xaGuQ5P5f2ezCaGNtkNBSJOXsZmEynlyxPswFi60aHk6MjJRrrdD34VDKeEJRzhFE/boVCVsUsUNVlES8hkTTPKXLESTZGHe5Byeboz7l2M093+Rbt95HR+DhFL4QgANefwJ8+RKWrKu2wfpYOdOswnkKHZkWIdlDM3I9ZYLOrfBeg/Y0OAEjfHRLYyptwVrrrF4ucGWbkJuxiDlvlhCZOehEkl9yiMN4eEkCnnCEO55/AtPslohjeNLs3kX/Dh1cIayZkEiEY70lP2VJpz+e45S7sfohvllyxbJIdtiLadGUAcujEBoPji/2PT6GvcGDj/aIUjC0V12g42kPVYMgYbsB8SZU7suWJKyR9sE01gyQD3o2dURLXZdJocLjFSRYQ3R7WYwuYlm0SREkzDiV1iILvliOSEg9EhUbEyRQhBzIK3d/YwqfBk7lsYW6K4gE2kbld51n76CXSRwRmwE1UbEY04XX3TLX4UBcE1225fTnDRaQmBzi82JJEi9R40YlZRvhcEFCDluZGHJVUxoXPZlDc6NBd7YrhQUhUUk9dCp+Q+TpHFs8CcPk1OSBtNgmTShKUwZIVFX2PYtDOilyaHzSUTBWUqlsnmCdrqOCSgRFszoaFJpT09zZOQsftKd07cd0zEN1BEF0OYcxvSVLj8GXEoqBM4IQU97RsDBD/uTsch4f6GBJRRpBX3SMJ90JmEUj0Rh+PQYB7ITsgprZLxwOAjI2JSJE8RVphoy76FzItgl8IlTSSgQg0eHsJDqQSmiXPY/cGQB4sDYOGCJEil8E2SYoiIrUw1CWYonNJJ82ltEPm4f74LSV9EOFHTVq7FE5tovOXj9m8gmVJNtiW/yldldkdqKYlEYWjms0Qkkgn6EUPujRmGwwDsXPaUkNxXkTL4nS6meDRgukvIFKUpH5wya3BOLbAiFmW+l8LopdavAe4YjV8vCFHMvL0XVeqrEup6j1Hq0rPNlkuw8EC1pVHJ7iBRDQq9vu+8GB9BEpgcZm4/AgPC0hPFeRSsr1VJ0ZOrPSeo9B69Z2Lsw6Njaa/ZA2QSFBE/D8o+Z8j5HzI7J7I7PYUMlqg+XlCUtz2ns8dD4F6keD1noPUMnvMG9FklZw+JXR69KmaKnz4ZX3cefAYntwpTBX9FRfTTHhPBERBBHgtgpboTTgno+J8SOj4nxH6l9CnLLYZHbiFy2Z+j2xnsL2PYV2V2V2Nuyvse5K86BeTOkeiE9HwPgK1rv5iQ3I8RDuEiSvAd1NGisjIJfd/7weSvZ6QRuzcMNGiaXxus+jkzpkzpCJrTJGRmSMjKpJ89X5kkeMAkjE9YZIJJ8PQxJsYMbkRqS3Z7wqb1CmBff4EP7wVqg2iGxBqyowy9dN1wRmdKUuil1L9dfIorG9QuhvUV8E6fVKh46UgWgMDgYpOb0ajMMmxeRYWoQRE+/tVNCG5AXPsvGEEj0vUV4EkDLgVoblicQvwSV6dxGqk0F4Di0r1aHoPQeojojoiIifVanssHLWC7omIc4fxSERAlNIQmkIQmk+xP2kv8AReGVIhF1IW5bJ/F741eNX175VWfSq1oDBBxBtG3x7B6ntn+LnsLEZKe44vEMQv2a033mtFxdzcqKL58OZlfAQn5V1SrxxF8njswpOOrbtsBEPeQybZpsI0nvpceEXFlNPgYHgcp9/AQlvn5CaauquE0h5av8jUqLqziMsrlHv2LWZuIdbHlK0NycCFnXH8X2MdyEz2QZ8ZGn90XOpBkWuavhDFFU/oyxvLl+F45itoRr8LXb1zRzLnvzr7U3gzj2n8jrnd/Ano9/vVNLZF/TJH5Nw4J4jq3DlFstGgrp4qO7eCmnCKnlPMV2ZR+BrXgL+LvZi8UEsvLh/IhE1tp/dF2RKSzz9auPCMUDs7i/L1U29kcRmxUYNKJLXbP6XXCoUqWUT/QgbKfgIUzYpXpIOat1NVutkSiwrIqn3XiSSmNsk/jRPPfOiW3X+Bcmyz/GV2dhAnZikJxptJNZEvZMyR1Vt0aYt3Var6KkcAT0PCScCJCXGqrcvUIYu0QbBFGWrVJaMtHZWC1TJIcMKok1fFVHoZbLq2yTFGa/QYm4e3/gq0iLrGICIl/9QL//xAArEAEBAQACAgICAgIBBAMBAAABABEhMRBBUWEgcVCBkaFgMLHA8EDB0XD/2gAIAQEAAT8Q/wDMNBYEe3IBA0f8l4/gHSYHbLXHfl6+p/5ESaI9ojHraXhCJEHRLKPlHyliQWLHzY+bbbEgvukfS+AX3eL6rHxZ+LGnEbHi+xb+rPsj4I+C0ePDcx4sUuQeOwD5G/chW52duYWFub1aWPmx82Pm23xtttvjbFjztv8AwYnUQ2YlRmpnj5gPpoZ1ueet0ESx2FC7ZEvJNNiivZeG5IiK949k0QTAeH6765D1fX4Cei+i+mPjg/V9M6YCSiUeBbO//eLE6iWkZLuxLAxyypLKz37h/a5u01DO4oY7AnWdEC5RXhGaXGHEk5Ivo32k2NfCLMJL1cHUnskvTCP50lADEOuB0r7k50KpBeZdf6dmywC4O4Tslekr6vQLHhQ/DW1tbW1/PnwRCwy4nLbbdnFhr4EGGIL9pY2Nn3JcTn4kQPLY3PhrLGw4h4IRp1B+2x9vCA8ID7j5owlcp9HgR+4xVPNSe0fUhGI/y7kHmaVinxt3nEmzPZ+UYB9S3wAyF0D/AKs4W5xaS/keIdH7TalDKfLwQAA6C27IsnBlPJbZjFu34Nwqz4GLAzCeZFtbExkBa28EdxsXD1YMzB5c5zOQCDQyTD+WFatxr8FyVE24eFiz+CAq8BF9eql2DnVbNXEZ7+P4WeO5PxxjdywWBnjLImFhdPoFLCUCS5iNV9rjbS2VlfiDZDwUeDmwk8kWsd3JcizshGDOC1ahm3w0C4ywjMlNk2yBi1tZlBuAUtggkByW3l/JsdW4D+L1cUWOhd/W3QgQecBq2118LCe11WHwYXNHVcxcAnGNpKvjGYoj4+pC7fOZza5zdxZZ92NjBArbCNUn5g8AA4LPAF2g54+EjpOjbbcMmK1mAW3p5YJTMssufB4Bn46HjyJGeNhmavcqx9mAbCOH+S0QnKv4mPyYl3gfhErRkJryNAXAixx3bOI8S7xYHh5bOe7nYOp8OyydPPNzY3PjJcnUCQApjHsM7mWEoQIEG4rsTh2XEjAZcbCWxieGeMYUuyTIbq9XqAYwPCD3MJLwEEE5PjZ1gMycDluf/kdozAMOt8hbMCqyxwrp87+j5EwBZ+W//AhgPwDXgNnNI9HP+oJEDgCRk4/Di0hLRtDq14b4VC2rbbQXATGHQwf1M3KeIdW+T0W+SEttbCRZtngLcYCEDOLkTr0R8M5E+qfjb719iBemce04rqAtBI+sRCMO0fBaMnb+bfwhjYDBPLfIuXuMOHX/AJAYp1cfiOKCP9QEdtmEzB/gsZtQDdt/KMAgvo7ZY2JHnVY5oIDwONhv/VGiXIR5CyyMzDMmL1/xDBUBFi2oPGRwfJhHcywUzBI8keOGTAlGeGXxKOMhkrlslebdlOYiDiDPgQbUK5mxQ2zGgGz8Nn6kEnFCvTDOZCvhOEl1CJ/wKjf+tuAUYBwwHQhHr+P3rJEnD+OcyMk4oB8HUa8U5uRuwEBgFsTk+BOauWbxYkZ4DW5u32s3rqcIROZE8BasDwRssIPQ0CWKhYfAy3xQObTW+UoGNMepOsDZzORYeMhsMsfB4McEhZgziOJI4PijttLBkzGUics85ctYbhgwgJAKnFcen/bZN5YIZiN+JbEY5B6l8gYHSg50RZQwSrRwrg+yppyo+1k4NRs5sufx7ZePJ+KcEKCN/BcxjHKAQfvI5vPIhFgGyeDdYBzH1yP+AYBTAJnxL5gat3Q+KRBUXINmLxbrgzZw3GRnhhaOYxiD2V3nuRYdHpgXYXcsQZHBzZXgWfvJPzU0LJ8G37y27viNb6SNp4N1Mmn4NSdo+Gemq65bNZTu/Ex9agABwTgTjuane4SLEgQOYK8m+jcPW6IxJ/RGl7NmU/li5sUUlrsrMNwX+EBts+iZdyxctRDd6KjC64khGe6EfNyERnP47IHZvBPEH9SLwSHUPREjVkRv8eSswz8BY6d/xJbQafrSCfAJZ4K5ldWacMsQnuN1jlGSdV4LE5N4RCWutNi5g6CLiaukyLtENJGyDwKNOaI3pWSnV3WRfyjhjLyrCWXBK3m79WXVZ0fSRsAODxHBeETcJ8llu8hMsvKITN1BfSkrt6g6XJzm9awI9wP2M2Ro/wBHxAOo+/2Nr5KGDLwbT6Ae2WHgCd4wO0B0tlBUIEn4X3YQ85OOU5PTLoVVu/MT2SdxlYClpybf61lJOicRy5ZPXYuyE4QubvCz3NcmethHDK6Kq25j1hrOvClyAHbFLJcc56l3ET04/jypEsR7/A27iWsY6QYOLKpr/e55JoiTAcCzHztjoNw1zCOQ5Oc+JTosUcAeE+urb67/AN+6t8iE04I+KmZ9EU8J3bw1wiLR1KkENGv6hFwMPAxRhwTPIeBKF7qBHiNMsvpxHwR2+LVnGfCI/qWJz5iXCCBE15fEvMo06Fylo8AVfbkuZpiwiM/1BJIXZhM+NhuXu/ZENBwTpBYEGc9Llogh+2BUw+2AdT2gQPgWaAbG7YeaTX0covUEH7NuHEGce4zYCaAdFs8ddxI50zRQDVeIh+9WHZQNgGjmBdTsz4L/AKNmc5AjcAGf3l9SD6EYqaSM2nWDc/UfyLWNZ55TfihycxgBJuubF89f0ZjW5LOJh3wrhHP/ALyOfswW1cOdi1mBsG2WAicTh1v+KCX0NnnCmXAFf6mjtkvgLYeRCzQnqhBaYR3QZdRnMnE56VgLq3qwHTFykBYbpbn93CmyASBvxbZj4TcwEVOG4JSboioAiSFk1PcEGQ1v/JAtdsDzjxF+l8Ie7vH9Ajezt/UjVdO2h5DN8hSaCbzErmH8t+4+GNi1AceJ6icr8E4GCBfvLBegTDB8EH1hwTh9cAXD8Shuj3bhHHALbcm6BzY/DC6jeUuBtYkWbyvwR3BNv2JP1BYZmsIPghoTtdcBI7/YUbMAw/kgxZ2XgJxDvC5mxEZrueCcNF19UxR4MLsljOAT9SB/UW0J/bCuq8lF1x5ZzLY8BnPSiC64g4ELd+VJT8h1ZR5jr5S5a3qDQ6BrfXPgja3jgc8079RTXOqzGeSxlfVC7DCtxU7tnEDAshQ5x1ciGEJzYBy7CXCEfrYpZyZcuy+gEAMwayj8ilUaJoiPv/6BLDE7Vkj5P8YWQIGKHBecsCoAIAicMtGKzAqMcBgT6keC64L+khvCjlkj5xYz1jj1zi8AIP8AeEoZTdyp/WF6IcRyemATjndwZ1kcUPpj/X0IY9D+kjoBZqiy9lZP1Msebwo+oQJpKEQEdH8kuGyXcchINX2SMG4v9rgAXzFin37C92BYDZ4QFfqw0hxluawBBqi5DCgGRzDzB7m7fWBsjjRQDdMidiQyHvtj85tm1+NHBzgsKBwNSndtaaCUsvWISFoW4QHeTdbs2l73/W2i0DS06uAfc8OAHCYrA+PTGd2QkoiiUAWgClOJ9PLywe/HlnjKQcfF16I4M9aFlFO24gXwuK82rYS0OCNncC5eICaHr0y1uUjnyw/Fkc7gXGpRzMzYKtGiepuHBjCCbOxxypKvgZ/g2YR1oiwUD5JvZvwqYDAQCSdS5/dgRcHNp4OOYhMT6QxTkscGxAQFNzypDzBI3CwOfya/cnsEW7i8Fce8yJC5+8hu6rxaGr95Dtz40A2zBGmBTQHEQAGBJ9HmJiDEqJuPIqJDDe6X1WIcBhlumYkUh6u8iFR1dligYxh49j+CxVsGByt9BoETgMLFiASIO+Hke3WNgHxFa6kaQjFsgBhLtvzrGWhuTTdq6wA4ITfNyHqQufaFwAEJMyVyZOrsJwAWw6srcc/rO+bJB2Wn6CfQUczrjv3ij0E/aCbJ7WyiPJaaJDYh8ROofuVcv8p2BHgONq11paOcsdoY1kz4tUgeN0tbWDC4w2aC7W2BLjhzNgi46xE4jwYu1ybOyYXz4uD5Kb/CK5IE1MDqhZFvjSMvgRY3AuUBLuWs3l3snJXg+xjfgyOkUpjGRtPdq1OpfvCPedHFfahvTctImfsZsyXlIkCs5YaL9lhfMfaZzvKWfxLAwkuiTL+UPkHhEucCcd4UKbHA+IDoEFyZmNjB6kS1Zp4EhFu34lo1Obn1avTb+KhfaG9rk7QvtYLxD+paPBEjtE/U3reUsbJwAXvF28hyM431u6EnMXN+4Gnl94n/AO7gfPGIfpOMsykQAwJG8pOXskYAj44zM4ek8BiUa8N82cnhz9xPURZfRX0wSb+reG7bbtjvKB8xf0EDrP5fRfCbfbZwsJRH0xOCdCwcIJxyWEYsjIuPJ8QUlZdsXeK0o6CufBgfGM+tl6wd62fhfBDSaLwoSOnFY/gxvwHjmfuvsgPdr78RbOcgd/H9m778n3vvSMFtTTzOVg+TJ9rHL3EaOr6E+tJWVkUhh1C+Ix49bDU+Ba+mYEAMvpLL4nHxZ/Fh4ROob6tY+W2wn8vx/wDS4veZG3e5DS8ww1/1KdSpUOeH9zF1YtjbVmJcMBcZbxCfFt/VkTEaNkzFzbTGUhP3YIlGDwDxz7IGzPzY+bMPm8fJF4+EYymD7C9IuOxiwLAdWc3LXqPikJwBrcW/xeepMkCGVZ899tp82vzLvqtvVjiOv83z/wDS4hftrxh/GZl6KGfGXzl8dt7JNzL2yfhnJiQpaPUO3YjnG4J4HGaXW226XAhZNVlu5+DF9w/nGHph7z8LfQx8y1drmeV++/b5Uxgo+WHOWPklPu38wfmB7uLIUFE1wkFOaUP9TWVoML6L6IP0X1WLCw/nSQ6RLOovJAnAN/HDKeoJh2R7C07jR6MIZYObC0Vl0GHFoNkHG4O5Rl+7Htshk8LhjJy8HHq4bOd3EtPUfHZ+r4d9fhfTc8+lBekH6X0r6y+qB8WHxZ/0ximv9pnmGp8BCwB3X7LhhZ/4nSx8eBfsgGBJZsWPjxixYgHjHx5w/wDnKArHNzchBWmrZM6zD+OV+8/4vj5tPw+yHfwSQXl6/DSE/DQ/IDuPgRNH8Pcc/H4KFp+GhfZCPgCZbHLFO6FuGM3EnY3/ABd4v0zaJ107ZvZnJssfaPDd5UY0MsXTf4nXltgXgXyJEOD/AMvO7l9xpWtZEH1ZfPlNIo/4uoXE116sPiWnQYvg1nG16AC/SQngSF6/MuELNV19A7iQeHysj/NrD7M+uV/3JX88Alv+x+i2M1S8a7Ai9Bc/rCSQQ5yKK/1OsOgTS/8AF/8ASbd4NaQxNfTp5HJSCDzGTJ5dHBLYnnJ6IxPTp/R+Bf6C4eEmQ9qf68IIidlsZC4vqMPY6+OfnXnQTprEzONGZm4cZR+3lGgeG3s6nTd5xa9C/d5/9V8+OGV59wJq3yeEQELAgR59FuGmAmsyyQr7+qsP0JkmrVoAAdB/xf8A1m3fn/2XtF79CpK9Ro+Tl4lI30KDy5FWP9DcOzBzmVdpm6EQTw22aWBgAcDJivc3pGIz0B5G/wBl/wC3+POvaIj9kHGif9513tPhuH1P9Xz3AWXEeoM5uCau/UeElxN/zN134GZeaT5QttaIJ/xAKcdxk1mJoeA/tGDHXyHxqPgJn/GDyWKUQUJncEbpcGHgZ9cCAARZ1153wgngk9UU+yAAPG2caTojhhgfB+HPFBG4AH6PO039FZhnCD+mxRFvF0H35G3W58defD9edC4Ik+I2IlH0edUjBQcC4xLPPWNYMR7um+4P/wDBRaIw8/MBILwMA/8AKBf/2Q==" alt="Maharaja" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #D4AF37;">
+            <div>
+              <h4>Maharaja Assistant</h4>
+              <span><i class="fas fa-circle" style="font-size:8px;"></i> Online</span>
+            </div>
+          </div>
+          <div class="ai-chat-messages" id="chat-messages">
+            <div class="chat-message bot">Namaste! I am your Royal Assistant at Maharaja Readymade. How may I help you today?</div>
+          </div>
+          <div class="ai-chat-input-area">
+            <div class="ai-quick-buttons">
+              <button class="ai-quick-btn" onclick="sendQuick('timings')">Store Timings</button>
+              <button class="ai-quick-btn" onclick="sendQuick('location')">Location</button>
+              <button class="ai-quick-btn" onclick="sendQuick('price')">Price Range</button>
+              <button class="ai-quick-btn" onclick="sendQuick('brands')">Brands</button>
+              <button class="ai-quick-btn" onclick="sendQuick('contact')">Contact</button>
+              <button class="ai-quick-btn" onclick="sendQuick('offers')">Offers</button>
+            </div>
+            <div class="ai-input-row">
+              <input type="text" id="chat-input" placeholder="Type your question here..." onkeypress="handleChatKey(event)">
+              <button onclick="sendChat()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="site-footer-brand">
+      <img src="" alt="Maharaja Readymade" class="site-footer-logo logo-clone">
+      <div>
+        <div class="site-footer-name">Maharaja Readymade</div>
+        <div class="site-footer-tagline">The Royal Address of Fashion</div>
+      </div>
+    </div>
+    <nav class="site-footer-links">
+      <a onclick="switchTab('home')">Home</a>
+      <a onclick="switchTab('brands')">Brands</a>
+      <a onclick="switchTab('range')">Our Range</a>
+      <a onclick="switchTab('reviews')">Reviews</a>
+      <a onclick="switchTab('photos')">Gallery</a>
+      <a onclick="switchTab('contact')">Contact</a>
+    </nav>
+    <div class="site-footer-actions">
+      <a href="https://maps.app.goo.gl/dUHVeM35PiduibGa7?g_st=aw" target="_blank" rel="noopener"><i class="fas fa-map-marked-alt"></i> Get Directions</a>
+      <a href="https://wa.me/919410434644" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/maharajareadymade_bsr" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="site-footer-bottom">&copy; 2026 Maharaja Readymade &bull; Ansari Road, Bulandshahr, Uttar Pradesh — 203001 &bull; Est. 1992</div>
+</footer>
+
+</main>
+
+<button class="floating-chat-toggle" id="floating-toggle" onclick="toggleFloatingChat()">
+  <i class="fas fa-comments"></i>
+</button>
+
+<div class="floating-chat-panel" id="floating-chat-panel">
+  <div class="ai-chat-header">
+    <img src="data:image/jpeg;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/xAAC/9oADAMBAAIAAwAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE88YU00E0UIIoYIIInI000000kEEEEEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEh73bF2z/wD8st8MpQhmqgc87DuzznPCQI9nCTVDLJAAAAAAAAAAAAAAAAAAAAAAAAAAB0co087n8419889wBBBU+csUgNd8QXGoQ4My4TfL/JJAAAAAAAAAAAAAAAAAAAAAAAAEk88NdriGQkdE8wco08rLrPXTDDDHwOsElAskNoAhQQcJAAAAAAAAAAAAAAAAAAAAAAAUm8vl4ZsE8MRRxxxBLBQIo8MUDfLrDGmWz/oncvXwjt6KAAAAAAAAAAAAAAAAAAAAAAAB08s9SE85DsBEQ0cuVveT7PRnAYO4UDtJPpy76G1KnJZZAAAAAAAAAAAAAAAAAAAAAAAR/wDNKyPMOqJNT/rQp7BbN15CDE9GeKeJrCjhjbc74lijsAAAAAAAAAAAAAAAAAAAAAAAAB+dde4xTXjyaPI0mrGk32ZAkJzmlHjAhAZdR6+AtbXmwAAAAAAAAAAAAAAAAAAAAAAAAFTqsk6lgnMdq4RN3mTlo9mrn+JeX1LDgvYJAar1+ACCwAAAAAAAAAAAAAAAAAAAAAAAAUYDmYBwzjcCMcBTSNCGX9pj95/bSUk62NfDbkVQOCYgAAAAAAAAAAAAAAAAAAAAAAAAAACyoHqp1vsQQAGx1Y9aZLMdDVYYFAyJ9l5SKBfYOoYQAAAAAAAAAAAAAAAAAAAAAAAAAAHCAsZ0PfnjopAeYTTTFarg/wAc7DFAGELf6DJEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGGGGVHEkAEAAAAAAAQAAAAAA++AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABV8D8EW8BMcAOBPcAeEXMg8X9kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCeDsFUMA/EB0CWsAulWcDeh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAC/9oADAMBAAIAAwAAABD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333X333333333333333333333333333333333333333333333333zLbfTzzDz37LvLb77nzDzHDzzjTDDjD3D33333333333333333333333333333333330LI1wvNpwy678P8ACw9CY8o5G/SbbGmdYJRks2t420999999999999999999999999994iQ3l8AmJAZV88pDhFN+VvqGLyCzf0ETfru86THH/e09999999999999999999999995648DldZrgfCq3uLinzGMFRXfw190SQuCSzC3yDfuDYy099999999999999999999999pN8NPsyv8SXghBBBR2h7A7y/y9DLgi0myoLdx9jesZ3M699999999999999999999999sB8EGnImiRG3/AJyl/vhHAKXJ/wCLF7hfK2pjs4PdLCfKYf8A99999999999999999999999to8ct3DcXK2/hQAUQBQhydiqx6otxe/PiBZE/yoAVHztr999999999999999999999999Chzc+JYVKI78a0K7QF4UjiLkUEGK/rwJAcbFgR83fgq9999999999999999999999999JGKddYTVUBYGoscNMy/SD4Tah0n6eboV9p2sCZZYZyH9999999999999999999999998s4J9eZi/sw1pQZKvb4Zs9aSbaU1uPjOBu+OF835eyW99999999999999999999999999915c+G7DOhFSw5VDhobSvL/CNFC60yMP6GdUJFDbtc9999999999999999999999999996vPb6GpqZEmUtmSCAGW59PV6fw0OfOc5cX+9Mc9999999999999999999999999999999999999c8ks8U8s9499995599999959ZFd9999999999999999999999999999999999999999998Pd/c8u9iepr9Wm9m8s693Mpj99999999999999999999999999999999999999999999Hdm08K16U9o9wy9u8429+6ud99999999999999999999999999999999999999999999999999999999999999999td99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/8QALhEAAgEDAwMEAAYCAwAAAAAAAQIAAxESITFREBNBICJAYTAyUmBigSOgM1Bx/9oACAECAQE/AP8Ac7yHMvL+u45lxLiXl5fqsJ/7Am0aqeIKgJAtKjKoC2hYeCRMiNmmbczvNO83E7x4nd+p3TwJ3jxO607rTuvzO4/M7rRGd2AlV8VsN53G5mb8zNuZm3MzbmZNzMm5mTczJuZk3MzfmB53R9zuL9wVV+53F5mYgqDmZrzLjn5tV7nQ6dKK3cSq13PRVLGwirTUgHUyoMXIH4dFbLcyo+TH8C/q/rrkZkZmYpY+YD8uq1tOtL202bnoqliAIxFMWG/mUdXvKhu7Hrf1ouTASq2K2G/UW9NvWPRfoDaCoRErcj5VZrnboD4tKvtRV6ACmlzuYSTvKXtRm/BwbHLpQFgWMdsmJ9A6KCxsIVINpb02EVciBGXE2Mp4A66whbmWEt9QKeIENx7YUI8CBf8AyD5NT8516UlycSqbuZSS5yOwjvkTxBKntpqstFRVF2jqrJkot0tLQUmOoEp0iW1GkrMNFE8iVPZTC+TBBTYi9uoF9AIaTDxEXtoWO8JJJPkxVJIEKEEiYmYtAjmGk/Ep08QSd4ysxJgpNMG5gUwK3M7b8xFxBJMOJJJMBSIQdvktfInpS9qs0AJI5MqHFQg389KYu4Eqtdz9SmoAyaO5YylrTYdaaX1OwmbM1l0EuADGNyTKSEsDKpu5lNL6nYRXuSBsBCNTAtztLCmPsynexJMrNsIBETAFiYqlyT4j07WI1EUMdhP+NfuUy2pYyqxAFpdooZUJO9pk3MUOx3lii8mU87ksZVBIAE7J5go23MVLG9/k1gd7dH9tJVlFdSx8RmyJPSgBnfgRUzYk7So99BsJaUdyORCNSIq5ECOCAFEJFNbDcwX7R5JiU/LaCI9zYDQCfmb7JjnFQo/uUT7iORO2xY+BECi4GpExuxZjpM8nA8XlRSz6CALT+zKlyFXneOwUBR/cVwBY6iIwJ0EwyYk7CE5EADSVAS20AVBcjWMSUEVCYp1sBBcsSdAIWuwAjhi2kACC51MBvrb5VQEqYguwH3Kxu4Ec4IF5360mxaO+ll0lpaKSpBjJkbgwkILDUw1dNBrNTFqYi1ozFtzKYsrGU1xBYw6kmDQiFyfMRgt4z5aeILAgw1YoycTYlj40EOpJglN8SYz5ebCA2trDVn5iNYV210EaqNhEqAExql/EBOlhaF2OwmJO5MUWHy1T/JfxFGVRmOwjtkxPouZczITKBz4MuTLniXPE14nu4lMEoRKgNgoExbiYtMG4mLcTFpg0waUlIbXiVbmwEwbmYHkTBuRMPsTAczBf1REAN47K2l5in3LJwYLfpmvE90HzB5jLihA3MxI8enSW+pYQLBpLmXMyMuYrkX0mTTJpcy7czWe6azXmC48wC+5hX+UsOYLcyy8y6QBTGsolxxMv4zI/pgJ4g+cDDCAYUE7QnananbMwaYPxArcQK3ExeYtMWmDQK8waYNzO2eZ2zzO2eZ2zzO3/ACnb+52xzO2OZgJ21mC8TBeJiOIBaNrLfsEczk/sM+BD+wh4h/2vP//EADMRAAICAQIEBAQFBAMBAAAAAAECAAMRBCESEzFREBRBUgUiQGEVIzJCcTNQU4EgMKBi/9oACAEDAQE/AP8A2dAZMNNg9CYKiR1wexhraFT2mDMeGPtOFuxnA/tM4H9s4H7TgbtOAzgM4DOH+I3aAEeGJiYmDMHwwfHB/sqKWIAlXw4MAS+8OketSwtOAJpabrjZaCOuJXTav6kUzko2OKqHS0kf08T8Op+8/Dau5n4bX7jPILjHGZ+Hp6u0/DqvcZ+H09zPw+j1zBodP2g0Wm9k8lR7JqaNNRUW4Bn0mg04utJYfKJ5TT+0QaTT+wTytHsE8tSf2CDTUD9gnJq9gnJp9onIp9UE5FPsEFFPsEFFA/YJZplboAIdC/ZYNDb2WN8Pu7LBobR1UTyb+0RtHZjZZ5W72w0uvUQj6sAk4AyZodMtdQJXczE+I28GnIHVthNFXy9Og9SMnwuuSlCzGW3aq5WsX5UUZE0VjWaZGbr4ZEyPE/zMjwzMz4lcbLuAHZZo6BTQvc7nwMEBEyIenSYHaYHaHE2mftMGbzfv4GGpYaUnl0l9dK9VMsqzuAAIfqvh+nDEWHGB46zN2rpqHQbmAYAEusWtCzGVJZrLOZZsg6Ca9hXpeEbZwAJpV4KK1+0BHhgTtMweP+5qbuVSzZ3xtNDSbr+Y3QHJmYYwY4ilumJnptNpvMmZ6bzAn8eOYYDMzrMCDaOgYbiPpUfqZf8ADcDKNn7GEEEg9R9T8Nq4a+Li6+ngykEtxYE0INupuuPfAmQBLGbWajgX+mh3MRFQADoJrfzdVTV2OTAAAMQbTExMTEwJiDUVG41A74m0+JOXeulfU5M09K01Ko/2ZkQTIhM9ZbatSFmMrtD1hx0M4szP2gz3gbqcQMT6CBmltxrUsQMSq82oHAE1YvZAKzg5lZtCKCQTjcws49ROYQN3AhvX/KI+qrAJNsF6MM8bS24b7PH69CPqPUTRHNCnGD4a63l6d+5GBNDXytMm253M115VRWn6nmloFNYHqdyY3TrNIObqrbT0GwmQJdqrbrOVR/szT3X16jk2nOehgaEmcUs1tKHhJmp1qLTlGyT0nw2okNc3U9ISACSdgOs0n5+qsuIyBsIdh0j6ylHCFpkEeD2LWMswAletockBpqLm1V61J+nMRVSsL6ASy6tELSvUo6q2esN1QnPp7mHU0pvBr9OTsZrNVzmFan5c7yq+mtEUHoI+up9cneeYr7GG+vHrG1FeN1Bi6rTk/wBMS+3nOERQBn0lfNVAqp0EZNQw6TUV2pgv9QoBYD7ygKK1CnIA8NeTbfTSO+TGK11nPQCaRDfe17dAcL4atwlFjfbAmgr4dMD6sczVXM7imvdj1M0+mWlMDqepms+XV0PAZma3UlAK0/WYKKaaS9oyxnLZnUY2Y7SpFrRV7Ca3UIlTJncjYTQLwUDuZq9UUARN2bYS6jlojHJcncxHIRf4Ee/gUkmZfV2EnIQTUhCwSsbjrifDazxNZj7CNZgEtNRqPMMtKDbMttTToqgZIGAJp9WbCVcYIj2VICWMGdVb6hBNUlIISoZb1mgpV3YuMgTgoAzwy1qrdTWqLtnecmrbaWtpqlJIEDJqbRnCoJrTp8KtQGR1Imieuuwu4JwNofiKeiGN8QNhPDXLdUzqVKj6n4bapQrn5psBNP8Am62230GwnxC0kJSp3Y7yioVVqoHQQnfpPiTHkBe7CXagUUIi7sQABNFQKwXc5dtzC0+I/oR/awiOCinPoJdeK0LE/wATT2K1tl9h6dIgfV2cT7IOgjcHnlHQIu0v1gHyV/Mxl9BWsM5y7EQYqpBJ6LNLWbrTc42/bPiK/lAj0YQ6yla1xucDYTUtc+GYYBOwhtFdS01jLEbwUcmixju5XczS2V06ZSSN94zW6psDK1jqZpQiPbb+1dhNNW1zm5x/Al+mYuLEOGmpqsCcVjZJOAIt60UBE3YytBWjuTliMmaR0rpJLYJOY1lt7cKkhfUypUXUHfAUdZbqK1XYkntmOCULMep2EblpWqqMuREpWulmYZOJp2rSkEjJJjFr2wowveOnLOA31WgsFd4JHXaXuq0u2egnw9QumLn1JJmlU6jU2XHoNlhhM1tbXV4HUGaekh+O3cjoJzB2hcS9UsqZZTqeUnBYpyOkCvqXy4wnoImh+bdvlz0ihVAAEu0i2WcQONt5VRXV0GT3M1bcV1K/eauw2MtC994mUQKBsBHy6lSMgxdMqHIWaimy4Lv0lFBq+bq3ePxuhU9DE0Xc5A6CXOaqGx2xFyyV0qf1btEHAgUegjHYTU0m5RjrKtLy8EjiMNZYMCoETREH5unaHNSE8AAAldv6sLlmMp0bj5mwSZdo7LFG4Eq0YTq+8ausghnJ2i6ehSOJiQPSHUVoMIqy5+Ns7fVA46GPqwdIasYMvsNWjqqX9TACaWrk0qP9mZG02nCMzgUGctZyjOTG06HBKictQPScCe4QisfuE/L94ma/cJrLEXU1sDkCaQoXe12AJOwM51Of1ic6n3ieYp9059Hec+jvPM0TzWn+81t9b1AJnrvNC1deXcHPQTzVXYzzVfsaDVV+lTQ6rtUYdVbnameav/xianVWuvAVAzNNXbUeIICZz9T2UQ26g9bFEbjPW4QlPW0mZp/+jHKkjAx9Yx6Sm4WahXfooGBFuRujQEd4R95iGfNCxHrONo1jRssSTmcCiGtDOTXBUnaWadHI3gprAGwgqr9onLq9onBSP2iYr7TNcynacSe2OK3GCkLBQAqekW1iccsws5/ZCbPRZm/2wrqe0draxliP4lStdYTmcmz/ACTk97Jya/V41VIH6o3CDtgziP1rAnEAxFsdejRdXYvrF17gdYPiB2yJ+IJ6rBrKSJ5iluhnmKM44obqB+6G+jvObR3huogvoMGooMN+nAG08zp8HYzzdA9DDrKvbPO1+yedT2Q61P8AHPPD/GJ54+wTzz+0TztnYTzlv2nm7u8Oqu7zzF3uhvsPVjHdn6mIWUbHE439xnE3f+05Pfwye/hv3mfv9Ee0PoP7eP8AqExt4DwHj6Qwepg7/wBtz/wH/RmZ8M+A/wCB6GDfA/8AV5//xAA7EAABAwMCAwYDBgUEAwEAAAABAAIDBBESBRMQITEgIkFRYXEjUIEUMDJAUnIVMzRDYCRicIIGQsCx/9oACAEBAAE/Av8A7DR72sF3FQ1Ec18D0/4G1jUC9+2w8loEbhC9x8/8iKzWYU9RHEOblHJm0OB5K6yV/urhZBZBZBZLJZLJZK6vxurrmufDVq7ZiLAe8UxrppQPMqji2YGN9P8AIbhZBdxFrfNanO6SowB6GyoYnMpYwT4Ih6Jcsit0rdKEq3QtwLcC3As2rNqu1XasmLNi3GrcatwLcC3Qt1by3lvLeW8t5bymqtuMuKq6h08pcVo8F5NwrdW6VulbpW6VulbjluFbpW4VmVmVm5ZuWbluOW4Vm5bjluOW45ZuWTlc+a5rmua5rmua5q5Vysll8+cUffhzVRJhC838FSt36v63QcQFuOWayVwuSuPzGrVX9sfVNaXOACo4NqFo/MXWZWZW45ZuW45bjlulbhW4VuFbnot1bq3VmsvnD3WCyPY1eXGIN81o0XMydqqrWQjrzTtTmLrqgqvtDOfUflqmYRROcpZDI8uPitJp85cz4fnLdq6yWSyWayQehKg+/wA2JspHXPZ1SXcqLBafFt07fXs12oCPus6qGnmqn3PRV1HHBTcut1on938tq9Rc7YTRkQFQwbMIHj8oCDRwufml1K7syvwjc5RAzVY/cmNxaB2NQr9vuM6qjpH1L8ndFFC2MWaFrT+TWLR47RF3n+VmkEcbneSmkMkjnLSqbOTMjkPlQKv6oPCEjfmchIR59nVZcIMfNaPFeQvPYr6wQssOqpad9VLc9FFE2NoA4ao/cqQPLkqGPCmYPyusT2YGD6qKMyPDQqWAQwtb2rq/ydryEDf5i61kevEWRAWrS5TYeS0yLbpxxqZ2wxlxXxKudU0DYWADhI7GNx8gmjfrP+10BYAflCbBV827UOK0qk/uOH52xVuNZqMkcxaFRTGeLJWKsViVirKyssVYKzVZq7qGPkh8xlv2ZHYscfRc6ir9ymDFjR6cCbC6rql08uLei06kETLnrx1OXbp/daPFeXPy/I19ds90dVp9Q6aO5410u1A4qkhM8/15qNmDQB97X1wgFh1Wm1Lp43E+f311W1ggj9Vpta+dzgVdXVTprZpM1BEIWYhXKuVzXNYlYuW2VtlahUimZ15rS6l1RfJYBAMC7q5fMZL9nU5cKcrSIsps/LjqlXg3BvUrS6TN+47sazLd4YtLi24L+fEuDRcqq1WxsxR6rID3lDK2VgcPuqqobDGSnvdPNfzKoodmFo46zNdwYFpEGEWfifvamdsMZcVLI+eX3VDBswD1+6v2JZGxsLiquodPKStLp9qK56njftZlZuWblNPtRlxVXUPqJblaXSmKG/msD5rBBqx+YzdnWJcpGsC0uLCAHz4TyCKMuK79XU+5UEQijDRxPJSHfrP+1lEzCNrfIcCbC5WoV5e7bYqLTS/vvWp0bY2BzVo0vIs7dTXxQ+PNfxh91DqML2XJVdVmeT0WlU+5Lkeg4zyiKMuKc41FT7lRMDI2jjWVzIBy6qDVXmUB3QoG4v2amujh8ea/jD7qHUont5lV9WZ38ui0un3Jr+XHFalU7EXLqtHfJKyQuPisFisFgsFgqmphgHM807WHZclTalDJ+IrU63cfgw8lp1Pv1DR4eKbCAAFtrbCnrX/bwwdEwAtCxCwCxVlVVsVOOfVO1t1+QVLqkMo7xstTrt12DTyWnQb1Q3yCbg0ALMLcC3EJDdA/MJDc9h5xaSpCZ6s/uUTMGAcNWqsjthaVS4s3D49ivlwpn+y0yPcqb/Xjqdd/bYtOoi87j0AAq9mVLL7LSHY1J9u1qNaIWYjqoKeWqkuV/C4hGVIMHkArqtNh2qcevHWP6b6rSYs6gHy411WIGeqihlq5Lp0e1OG+qp/5MfsrKystQrBA2w6qCCWrkX8JiEfNTDble0HoeGmU+3APMq3B7w0XJWoT789gtPg2qdvmnva0XcUyrhe6wd2KytZAw8+aG9WSqHSogzvKrjEMxDTw0WLBhk81msynzYMJKgvLXtP+9B3JZrMrMqs1AQtPPmgJqyVR6VGGc1Us2pXBp4aRBhFn4niTiLlRyNk/CrOUYd4/L3dEQexqEu3Tn1WlRZz5eXCqmEMTioGOqqn63TGhrQB2NZksxjfNaNH3C/hqNaImYt6qipXVEuTuiYwMaAOE7conj0VIcKz69mpnbDEXFd+qn9yqaBsMQC1KuxG2zqmUz5GOkPQKkizqGj1TRYW4TTshbclVta6c28FokdmOd58JpWxRlxT3SVlR9VS0zIIwFWf1v1VP/Jj9uNXWxwMPPmry1c/uqWnZBGAtTr8Bgw81FTSTZPPRUsW5UMZ6pndaB6cJpmRNuSq3UHzOsDyWmwb0/PwUkrImXKq62Wofi3oviwvBKophNA035rkq3UI4RZp5pz5KmX3VFRtgjHmtQrGwMsDzUcMlS4lbfxsPVQRhkTWqye9jBclV+oGQljOi0hmU5PlxJsLlVuphvdYhuVEtupKoqDYjHLmtSqxA3EHmoaaWqc5yZFlMGDzUMDGRtHosGqR8UbbuVfqLpnYR9Fo8EkbLv8fmUluxrMvRi0iHCG/nw1apyfthaVTYR5nqezrD7zY+S09mFO1VVQ2CMlNbJWTqCFsUYaONk4bdd/3TTcA8LJxAF1qVXvSYg8gtIpLN3Sq+ubE0taeapaeSqluVXhsFGWDxC0aK8hfwqaqOBvMqaearksFUQbTmt81pzMaWP24arV7j9tq0qk248yOZ4VvKsVOfgx+yLrKs1RrLtZ1Usr5HXcVo9NZm4fHoq+vbCwgHmqeCSrmuVWsbTUJDVo0eUrneXCoqo4W8yp6iWqksFPDtWb4rS4duDIrUqwyyYN6LTKD+48LUaHdju0cwqepmpXWU2pzScgpWydXrR6bI7hCrKpkDDz5prZaydfZ2UtI7zxWlx7tWLqwU00cTbuKq62Sofi3opqYwxtLurlocYxc9d1PlZG25VdqjpThH0Ukb2i7vFaJT8zKQq3UGwMPmmNlrZ0WCko3W8lpUedUHeSup6lkTbuKq62Wqfi3otM0q1pJEGgfMntyThY8at29V29bKnZhCxvkFUzbUTnKBjqip+qY3BoHZ1E5VjkJGxUzSf0qpnfVTWCoKMQsF+vZ1Ru3VAqifnTRn046pW4jbaUwZPCqKxlPAGM62UMMtXLdU9OyFgaFrZtFGtHexkBJPiqrVGMBDOqAnq5FR0DIG8+qq3Z1tv91lE3FgCr6gQwnzKoYDUT5FAWFhw1eMtqMvRU2pxNgaHdQFU6jLMcWKm058nfk6KQD7Rj4ZWUtWylpmsb1soopauVUtOyBgAWtH4FlozmMY8kqq1VjAQzqvj1cipaFlPHkeqN6is+tlXTCmpgwdbLTaYzS5O6IWAtwlooZOdlHp8DPBam7KpsOijnjpKNvPmQvjVsyoaEU7OnNaocaYrRS0PcSVU6nFEDbqny1FZJyVBpoi7z+q1mTKcM8lpkBZStCqJmQNu4qqrJap+LeioNJt35FqDsqnEeHJNqGUlGznzsvjVkyo6NlOwea1c2oz7haI5gMhcVU6rFGCG9U+SorJOSoNMEQDndU0H5pL14Tvwie7yCombtZf1vw1eoudsLSKezdw+Pa1JpbVuUlVLM1rFptBh33jn2tZgyaHhaPUjExkq6rq5kLCAeagppKpz3n1Ra9j+ip6WapeLqmp2QMAA4avA6aJtvBNiqPwi6ptKkebvUNNHCO6FIbRuPooRuV3/ZHkFqFQZ58R0Wn02zCPMqysqqjbUMsV/BXZdVT6ZFF16p8fw3AeSna5s7+XioKWapfzuqakZCwALFarTOlh7qbFUDugFU2lSSG71DSRwjkFqMm3TPWkx5TOefDmq6Y1FTYedlQ04hgaPFW7Fc1wqHKKKeoIHNUVG2nZ05rmtQidNAQEIahhsAVBpk8p76pqJkA5DmnkhpPonk1FZ7lS1baWFvPwUs09bLYKh0wQgOd1Viqxj21L7+ahgnqXAc7KioY4G+q7q1OLepS0eabFUMNgCoNNmlN3qmpGQjkF3k3L5pKFZapJjTOHmtGZ3i9TSCONzkMqqp9yomBjGgdqroGVHPxVNpkURuQrAcLKysrKSIPYWlVNLLSy5N6L+J1Nrc1T0k1VJd/RQwMiZiAn0EL3ZEJkTGDujjZbUf6eNYbU0v7VpQzrPotTqdmAjxK0un3p8z4c0OXG6ur8JKGB7si1RxsjFmhXV+G3H+njrknJjVDOIqI26uuFpdPuzZnp2pqOKU3IUUEcf4QslkrrBn6eGS1Go26ZyilMcoeF8eslVFRsgb05rJZKakildchRQMj/AAhc1isVsR/pQZ6LFWKA+aWUvVa2/lG31WjstT39VrFRZojHitHpv7h+n3F1dXV+N1dPY14s4IUUAN8U1rWdArq6urq/Z1E/6Z/stG5VN/8AaVqM5nqMR0BWn0+zAPPt343V1dXV1davJlUEeSbk6zVQwCGEK/C6usldX4c1ZyxcsXLFy1qbviMKCB8zw1oVHQCBg5c1g5bZW0VtLbWIVmrurJqzCDvm5aCtad/qy3yVJ8Kkv6XUrnVNV9VTxCKJrfvLq/b5rmrFWcsXLErFyxK1Fh+yv9lHK6M3C0qkdPLmegW25YOWBWBWBW2VtrbW2ttba2ltraW0EYhZaj/WS+60ej3ZM3dAttq2wsGrFqxasWKzF3F3VkFkFmFkFV1bYIiVI91ROT5laZSNgjuR3lms1kVdy7y76s5YLBYhYhWHzc9Cq34teVqMuzSMYOpC0enyfuHw+8srKysrKysgF3VdXV1kslkslkqsF9PI3zCbRzGTHFUMH2eEN8VkVkVkVmVk5ZuWRWRVyuauVdXV1fhV6WJpcwVTQNgjDR2bccVZYrFYqQiNpcVqNaZ5LeC0Sk3JNwjkFgFiFYLkuSyCyCyV/nbvwu9lM/GrLvIqWaSrlYPoqOl2YGtt4LBYlW/NiJgN7duysrKysrKysrBWCsFYLkuSu1EhXWSuslms1uLcRkWraiXnbaUOZWmxbNM31Vyrlc1zVisSsSgCgD87d+F3sqr+e/3Wi0Re/dcOXCyLVgsFgsCsSrdu/G6vwurrJXV1dXV1ksldZLJXV+HNXK5rmrlc1zXeVnKzli5YuWDlg5YFYFbZW2ttba21trbCwC1asbBHi38RRjkc0yLTYN6pb6IMAFliFiFb/AqnRd2fMHkoIWwxho7VlZWWKxCwCMa21trBba21gttba21trBbawW2sFtrbWC21thbYW2FgFgFiFiFiFiFiFiFYKyt+QqZmwxOcU4yV1V7lanhBDHA36rQabGMynx/xa3y7Wazck2mlaTSCGAzP62U7jWV3uVTxiOJrfT/gPUqoU9O4+J6LT6d1XVZH3WrziCm22+K0OlykMp+n+MfGmqZWh3QImensSbi6Y7JoPCpcWwSEeAUEVRLE1+fUKCGVju87sVdU5s7AOjT3kx2TQeOoPe1jMfEoRVOIOSp6l2W3J141Qft9zqqSo3Wc+oU87nzCOP6pvIDg44tJVDU7rpQf1KolEUTnKgm3YL+p7D6t32sfp6djUJHtwDT1IWzUt/8AZU1SXOwf146hI5kJLU2mqC0HPwUEcjPxG/DWardnwHQLSacU9NmfdahOausxHQFUUAgga3/Fyo5xFVz38gpqj7SAxg8VE3CNrfIcKz+ll/aqWqlbAwBngoJ3yHm23GRwawlQRtmjle7/AN+SoJcmFvkeOo9If3qP8DfZVws+N46pv4R7caxrqd+5H4qjgwbmep41rsaeT2ULfs74pPBw/wD1Vx3HMhHitP8AhyyReQ41Uu1C5yEI+yk373Nyo5dyEeY68dR/FF+4cKsYVVM4eLuOqf05TKuXBvw/BQSukBu2yq5tmB71SMNRWt/ctUqhT0+23rZaJSF8m67w/wAZgja+rqL/AKQo/wDST2P4Sgb8Kz+ll/aqOeAU8YLh0TJonHukcdQeSBEOrkzT7NHfTY/slSPJ3HUjZsX7k2shDB3vBDKqnabd0djUv5Si/ls9uOon+Uz9TrKogvTAfpWnB8rzI/6J3w6+/wCuw41vx5mQj6r+H8rZqlH2aoMR6Hnx1I2MZ/3BGth81GH1FQJCOTenHU/5BUdRT4M7w6BRyRv/AAla7JjTY+a0fCPdld4BSyPrav6qlgEELWD/ABlsbWuLh1KkiZJ1QFhbg5oc0gr7FCo6dkZuOJiaXhx6jg+Jr7X8OMkTZBZyFHCE1oaOQ7D42vFihyHF0TXkE+CIuFHG1gsE6JrnNceo47Tc8/HgYml4d48ZYWS/iQpIgg0N6cZI2yNs5fYoVHC2Pov/ACBpwYU177YjxWi0GHxXj/gWpp2TxlrlBo8LHXKa0NFh/wDUC//EACgQAAMAAQQCAQQDAQEBAAAAAAABESEQMUFRIGFxMFCBkWChsUBwwP/aAAgBAQABPyH/AOw0f5EL2pU/8FbSVZsIjkFx/kWwjs9okNSE0Ji9ElKUpdaXQ9h79CCPGb6KysoouhkSRG8R/wCwmLlJfpUpfpUv8KauRv5Gu2iVfgM8AJciZPQfgBqYu09w+4fce8l5jeyR0M2UUUWI4Ihn/JhjC2L8BnoHsFpntPae09h7NL2HtPcewybj7D3CdyIF7l76aVgUN6qQgTv32K3HbDb7L2H8SDbMEhLQoadaDf8AxCee08b6TELeVf8AghNWTWj2nvPYe7wvVj1Hq0l6ibojoVldCf3dZNnJdY48tk2Vtjyf0EweB7fkfVn0WMfGBh2WMMYzNvO+NKUrLpSl8JpNE8UsII6PgfA+IlaFm33ZIR4nUySPiBPwsFjcM7Rc8Av+ms0hPovwmsluNx6VbsT+WC+hCE+hCa0pdc/QyZ1k3BWthGtvubZFMeKnHCOUKEJ+FrgUjYMtwjkj2lRxWeN+tBz3sHEe70bCUi8IQaJ5QhCa3SE8qbj8qUerexEhyMCd+5JMDNvG5W0jTEx4Njszv+yxHcmqJ8XfRv1LWy2EWbsUBZmfCl0QNopv44LpPrXV/Sr06T7i+4b2vccA35vMoWW7qxDMwJctpv8AoT1mZ0+ewdbsFLOvp0ut0utB+hljGxNfieE+lPKDNtIyPojIyPo9BRH0R9G1Qi9I9WsVp+ZPYvYRLTF6mYMuF9x6vGgPZhAF9Ami3tsjucwJas9aH4lZ+y/4VLXwWc7Z4E5cZBK9hLSeEITxsfM4KQtbpdOBaVobKUN3fY6Kb4DSSnWExl4MrsOyvA+Ue3QEvUT7/cHsOrj8cPeW0VmW/XJwMlYTqEklNME1e0Ztrvq6MwhD+MXePiMzSeDmvMwWzLBMXMzrX225kK+iQerXMzBRt1tgUjMpXpSiaez1omXQ9Xu7HGi4RBVoJELkpRlLBdJ6BtHu+w3sucISW3z0HyPaJRKfcGT8ao2WTGudLTuD5AKk2WrQ2x8A+IjRTthDE3BD2RN/yPb79+F0wLWsh0cDQgmkMmcTGwJY0ZJwUwKiuFomNqand0BSk2ZPBc1kOrgt0JpDamxMlWMxKISrPkbmzNnEkH7C9yeyexK+Sexrn6G0cCyITK2BGysGEMWyg1FJijXekMFrgz7GQSo+BnBeh14RCGg9+FM63E2MibJafoL6OCKL7e3EJ8H0uiRZoQn4QhiX45MY52eFLzsLT8aKkbrvkm3AsiUR8SMiyvFkfmZESmXbw2jKJNkuxODla9a2viYRwYQd480N7WUf0ATwrfXZle7LliZem5srQN2VzXIUZGKJDFvxsQvJZGqFG7Z8i+T8iegym5brO1IYJ5lspiLcZVNwMBRRFa0ulZzVt1nYsEY1puzIVwaR9C9hRcpMtwIX7e3BZ58P0EZ3tWjCvMwXL5DZaXhJOTJ91tHAxOzO7aiIolp7FGM+PixTjA3zWCNLMyLcz2MciLTqtBK02RB1M/pzK/0mjhtkYXY8BQVmZ1irTfAXyLbCyLMyxb8wLPkGe4Ai6dEUbDMkRcl7MhjfEhprliDzonucYTI0m7GmgrybbovfHI850yX7bE8pnEXrhEDnMPQN+4UmiNoRe3+yNkwK/bR7ypmhI22PyoLP0Ijk5JIf/wBYdbBfcVRZHvr/ALZRdcWMlNwjFHR5CR3eR5Hng5i6xaGuQ5P5f2ezCaGNtkNBSJOXsZmEynlyxPswFi60aHk6MjJRrrdD34VDKeEJRzhFE/boVCVsUsUNVlES8hkTTPKXLESTZGHe5Byeboz7l2M093+Rbt95HR+DhFL4QgANefwJ8+RKWrKu2wfpYOdOswnkKHZkWIdlDM3I9ZYLOrfBeg/Y0OAEjfHRLYyptwVrrrF4ucGWbkJuxiDlvlhCZOehEkl9yiMN4eEkCnnCEO55/AtPslohjeNLs3kX/Dh1cIayZkEiEY70lP2VJpz+e45S7sfohvllyxbJIdtiLadGUAcujEBoPji/2PT6GvcGDj/aIUjC0V12g42kPVYMgYbsB8SZU7suWJKyR9sE01gyQD3o2dURLXZdJocLjFSRYQ3R7WYwuYlm0SREkzDiV1iILvliOSEg9EhUbEyRQhBzIK3d/YwqfBk7lsYW6K4gE2kbld51n76CXSRwRmwE1UbEY04XX3TLX4UBcE1225fTnDRaQmBzi82JJEi9R40YlZRvhcEFCDluZGHJVUxoXPZlDc6NBd7YrhQUhUUk9dCp+Q+TpHFs8CcPk1OSBtNgmTShKUwZIVFX2PYtDOilyaHzSUTBWUqlsnmCdrqOCSgRFszoaFJpT09zZOQsftKd07cd0zEN1BEF0OYcxvSVLj8GXEoqBM4IQU97RsDBD/uTsch4f6GBJRRpBX3SMJ90JmEUj0Rh+PQYB7ITsgprZLxwOAjI2JSJE8RVphoy76FzItgl8IlTSSgQg0eHsJDqQSmiXPY/cGQB4sDYOGCJEil8E2SYoiIrUw1CWYonNJJ82ltEPm4f74LSV9EOFHTVq7FE5tovOXj9m8gmVJNtiW/yldldkdqKYlEYWjms0Qkkgn6EUPujRmGwwDsXPaUkNxXkTL4nS6meDRgukvIFKUpH5wya3BOLbAiFmW+l8LopdavAe4YjV8vCFHMvL0XVeqrEup6j1Hq0rPNlkuw8EC1pVHJ7iBRDQq9vu+8GB9BEpgcZm4/AgPC0hPFeRSsr1VJ0ZOrPSeo9B69Z2Lsw6Njaa/ZA2QSFBE/D8o+Z8j5HzI7J7I7PYUMlqg+XlCUtz2ns8dD4F6keD1noPUMnvMG9FklZw+JXR69KmaKnz4ZX3cefAYntwpTBX9FRfTTHhPBERBBHgtgpboTTgno+J8SOj4nxH6l9CnLLYZHbiFy2Z+j2xnsL2PYV2V2V2Nuyvse5K86BeTOkeiE9HwPgK1rv5iQ3I8RDuEiSvAd1NGisjIJfd/7weSvZ6QRuzcMNGiaXxus+jkzpkzpCJrTJGRmSMjKpJ89X5kkeMAkjE9YZIJJ8PQxJsYMbkRqS3Z7wqb1CmBff4EP7wVqg2iGxBqyowy9dN1wRmdKUuil1L9dfIorG9QuhvUV8E6fVKh46UgWgMDgYpOb0ajMMmxeRYWoQRE+/tVNCG5AXPsvGEEj0vUV4EkDLgVoblicQvwSV6dxGqk0F4Di0r1aHoPQeojojoiIifVanssHLWC7omIc4fxSERAlNIQmkIQmk+xP2kv8AReGVIhF1IW5bJ/F741eNX175VWfSq1oDBBxBtG3x7B6ntn+LnsLEZKe44vEMQv2a033mtFxdzcqKL58OZlfAQn5V1SrxxF8njswpOOrbtsBEPeQybZpsI0nvpceEXFlNPgYHgcp9/AQlvn5CaauquE0h5av8jUqLqziMsrlHv2LWZuIdbHlK0NycCFnXH8X2MdyEz2QZ8ZGn90XOpBkWuavhDFFU/oyxvLl+F45itoRr8LXb1zRzLnvzr7U3gzj2n8jrnd/Ano9/vVNLZF/TJH5Nw4J4jq3DlFstGgrp4qO7eCmnCKnlPMV2ZR+BrXgL+LvZi8UEsvLh/IhE1tp/dF2RKSzz9auPCMUDs7i/L1U29kcRmxUYNKJLXbP6XXCoUqWUT/QgbKfgIUzYpXpIOat1NVutkSiwrIqn3XiSSmNsk/jRPPfOiW3X+Bcmyz/GV2dhAnZikJxptJNZEvZMyR1Vt0aYt3Var6KkcAT0PCScCJCXGqrcvUIYu0QbBFGWrVJaMtHZWC1TJIcMKok1fFVHoZbLq2yTFGa/QYm4e3/gq0iLrGICIl/9QL//xAArEAEBAQACAgICAgIBBAMBAAABABEhMRBBUWEgcVCBkaFgMLHA8EDB0XD/2gAIAQEAAT8Q/wDMNBYEe3IBA0f8l4/gHSYHbLXHfl6+p/5ESaI9ojHraXhCJEHRLKPlHyliQWLHzY+bbbEgvukfS+AX3eL6rHxZ+LGnEbHi+xb+rPsj4I+C0ePDcx4sUuQeOwD5G/chW52duYWFub1aWPmx82Pm23xtttvjbFjztv8AwYnUQ2YlRmpnj5gPpoZ1ueet0ESx2FC7ZEvJNNiivZeG5IiK949k0QTAeH6765D1fX4Cei+i+mPjg/V9M6YCSiUeBbO//eLE6iWkZLuxLAxyypLKz37h/a5u01DO4oY7AnWdEC5RXhGaXGHEk5Ivo32k2NfCLMJL1cHUnskvTCP50lADEOuB0r7k50KpBeZdf6dmywC4O4Tslekr6vQLHhQ/DW1tbW1/PnwRCwy4nLbbdnFhr4EGGIL9pY2Nn3JcTn4kQPLY3PhrLGw4h4IRp1B+2x9vCA8ID7j5owlcp9HgR+4xVPNSe0fUhGI/y7kHmaVinxt3nEmzPZ+UYB9S3wAyF0D/AKs4W5xaS/keIdH7TalDKfLwQAA6C27IsnBlPJbZjFu34Nwqz4GLAzCeZFtbExkBa28EdxsXD1YMzB5c5zOQCDQyTD+WFatxr8FyVE24eFiz+CAq8BF9eql2DnVbNXEZ7+P4WeO5PxxjdywWBnjLImFhdPoFLCUCS5iNV9rjbS2VlfiDZDwUeDmwk8kWsd3JcizshGDOC1ahm3w0C4ywjMlNk2yBi1tZlBuAUtggkByW3l/JsdW4D+L1cUWOhd/W3QgQecBq2118LCe11WHwYXNHVcxcAnGNpKvjGYoj4+pC7fOZza5zdxZZ92NjBArbCNUn5g8AA4LPAF2g54+EjpOjbbcMmK1mAW3p5YJTMssufB4Bn46HjyJGeNhmavcqx9mAbCOH+S0QnKv4mPyYl3gfhErRkJryNAXAixx3bOI8S7xYHh5bOe7nYOp8OyydPPNzY3PjJcnUCQApjHsM7mWEoQIEG4rsTh2XEjAZcbCWxieGeMYUuyTIbq9XqAYwPCD3MJLwEEE5PjZ1gMycDluf/kdozAMOt8hbMCqyxwrp87+j5EwBZ+W//AhgPwDXgNnNI9HP+oJEDgCRk4/Di0hLRtDq14b4VC2rbbQXATGHQwf1M3KeIdW+T0W+SEttbCRZtngLcYCEDOLkTr0R8M5E+qfjb719iBemce04rqAtBI+sRCMO0fBaMnb+bfwhjYDBPLfIuXuMOHX/AJAYp1cfiOKCP9QEdtmEzB/gsZtQDdt/KMAgvo7ZY2JHnVY5oIDwONhv/VGiXIR5CyyMzDMmL1/xDBUBFi2oPGRwfJhHcywUzBI8keOGTAlGeGXxKOMhkrlslebdlOYiDiDPgQbUK5mxQ2zGgGz8Nn6kEnFCvTDOZCvhOEl1CJ/wKjf+tuAUYBwwHQhHr+P3rJEnD+OcyMk4oB8HUa8U5uRuwEBgFsTk+BOauWbxYkZ4DW5u32s3rqcIROZE8BasDwRssIPQ0CWKhYfAy3xQObTW+UoGNMepOsDZzORYeMhsMsfB4McEhZgziOJI4PijttLBkzGUics85ctYbhgwgJAKnFcen/bZN5YIZiN+JbEY5B6l8gYHSg50RZQwSrRwrg+yppyo+1k4NRs5sufx7ZePJ+KcEKCN/BcxjHKAQfvI5vPIhFgGyeDdYBzH1yP+AYBTAJnxL5gat3Q+KRBUXINmLxbrgzZw3GRnhhaOYxiD2V3nuRYdHpgXYXcsQZHBzZXgWfvJPzU0LJ8G37y27viNb6SNp4N1Mmn4NSdo+Gemq65bNZTu/Ex9agABwTgTjuane4SLEgQOYK8m+jcPW6IxJ/RGl7NmU/li5sUUlrsrMNwX+EBts+iZdyxctRDd6KjC64khGe6EfNyERnP47IHZvBPEH9SLwSHUPREjVkRv8eSswz8BY6d/xJbQafrSCfAJZ4K5ldWacMsQnuN1jlGSdV4LE5N4RCWutNi5g6CLiaukyLtENJGyDwKNOaI3pWSnV3WRfyjhjLyrCWXBK3m79WXVZ0fSRsAODxHBeETcJ8llu8hMsvKITN1BfSkrt6g6XJzm9awI9wP2M2Ro/wBHxAOo+/2Nr5KGDLwbT6Ae2WHgCd4wO0B0tlBUIEn4X3YQ85OOU5PTLoVVu/MT2SdxlYClpybf61lJOicRy5ZPXYuyE4QubvCz3NcmethHDK6Kq25j1hrOvClyAHbFLJcc56l3ET04/jypEsR7/A27iWsY6QYOLKpr/e55JoiTAcCzHztjoNw1zCOQ5Oc+JTosUcAeE+urb67/AN+6t8iE04I+KmZ9EU8J3bw1wiLR1KkENGv6hFwMPAxRhwTPIeBKF7qBHiNMsvpxHwR2+LVnGfCI/qWJz5iXCCBE15fEvMo06Fylo8AVfbkuZpiwiM/1BJIXZhM+NhuXu/ZENBwTpBYEGc9Llogh+2BUw+2AdT2gQPgWaAbG7YeaTX0covUEH7NuHEGce4zYCaAdFs8ddxI50zRQDVeIh+9WHZQNgGjmBdTsz4L/AKNmc5AjcAGf3l9SD6EYqaSM2nWDc/UfyLWNZ55TfihycxgBJuubF89f0ZjW5LOJh3wrhHP/ALyOfswW1cOdi1mBsG2WAicTh1v+KCX0NnnCmXAFf6mjtkvgLYeRCzQnqhBaYR3QZdRnMnE56VgLq3qwHTFykBYbpbn93CmyASBvxbZj4TcwEVOG4JSboioAiSFk1PcEGQ1v/JAtdsDzjxF+l8Ie7vH9Ajezt/UjVdO2h5DN8hSaCbzErmH8t+4+GNi1AceJ6icr8E4GCBfvLBegTDB8EH1hwTh9cAXD8Shuj3bhHHALbcm6BzY/DC6jeUuBtYkWbyvwR3BNv2JP1BYZmsIPghoTtdcBI7/YUbMAw/kgxZ2XgJxDvC5mxEZrueCcNF19UxR4MLsljOAT9SB/UW0J/bCuq8lF1x5ZzLY8BnPSiC64g4ELd+VJT8h1ZR5jr5S5a3qDQ6BrfXPgja3jgc8079RTXOqzGeSxlfVC7DCtxU7tnEDAshQ5x1ciGEJzYBy7CXCEfrYpZyZcuy+gEAMwayj8ilUaJoiPv/6BLDE7Vkj5P8YWQIGKHBecsCoAIAicMtGKzAqMcBgT6keC64L+khvCjlkj5xYz1jj1zi8AIP8AeEoZTdyp/WF6IcRyemATjndwZ1kcUPpj/X0IY9D+kjoBZqiy9lZP1Msebwo+oQJpKEQEdH8kuGyXcchINX2SMG4v9rgAXzFin37C92BYDZ4QFfqw0hxluawBBqi5DCgGRzDzB7m7fWBsjjRQDdMidiQyHvtj85tm1+NHBzgsKBwNSndtaaCUsvWISFoW4QHeTdbs2l73/W2i0DS06uAfc8OAHCYrA+PTGd2QkoiiUAWgClOJ9PLywe/HlnjKQcfF16I4M9aFlFO24gXwuK82rYS0OCNncC5eICaHr0y1uUjnyw/Fkc7gXGpRzMzYKtGiepuHBjCCbOxxypKvgZ/g2YR1oiwUD5JvZvwqYDAQCSdS5/dgRcHNp4OOYhMT6QxTkscGxAQFNzypDzBI3CwOfya/cnsEW7i8Fce8yJC5+8hu6rxaGr95Dtz40A2zBGmBTQHEQAGBJ9HmJiDEqJuPIqJDDe6X1WIcBhlumYkUh6u8iFR1dligYxh49j+CxVsGByt9BoETgMLFiASIO+Hke3WNgHxFa6kaQjFsgBhLtvzrGWhuTTdq6wA4ITfNyHqQufaFwAEJMyVyZOrsJwAWw6srcc/rO+bJB2Wn6CfQUczrjv3ij0E/aCbJ7WyiPJaaJDYh8ROofuVcv8p2BHgONq11paOcsdoY1kz4tUgeN0tbWDC4w2aC7W2BLjhzNgi46xE4jwYu1ybOyYXz4uD5Kb/CK5IE1MDqhZFvjSMvgRY3AuUBLuWs3l3snJXg+xjfgyOkUpjGRtPdq1OpfvCPedHFfahvTctImfsZsyXlIkCs5YaL9lhfMfaZzvKWfxLAwkuiTL+UPkHhEucCcd4UKbHA+IDoEFyZmNjB6kS1Zp4EhFu34lo1Obn1avTb+KhfaG9rk7QvtYLxD+paPBEjtE/U3reUsbJwAXvF28hyM431u6EnMXN+4Gnl94n/AO7gfPGIfpOMsykQAwJG8pOXskYAj44zM4ek8BiUa8N82cnhz9xPURZfRX0wSb+reG7bbtjvKB8xf0EDrP5fRfCbfbZwsJRH0xOCdCwcIJxyWEYsjIuPJ8QUlZdsXeK0o6CufBgfGM+tl6wd62fhfBDSaLwoSOnFY/gxvwHjmfuvsgPdr78RbOcgd/H9m778n3vvSMFtTTzOVg+TJ9rHL3EaOr6E+tJWVkUhh1C+Ix49bDU+Ba+mYEAMvpLL4nHxZ/Fh4ROob6tY+W2wn8vx/wDS4veZG3e5DS8ww1/1KdSpUOeH9zF1YtjbVmJcMBcZbxCfFt/VkTEaNkzFzbTGUhP3YIlGDwDxz7IGzPzY+bMPm8fJF4+EYymD7C9IuOxiwLAdWc3LXqPikJwBrcW/xeepMkCGVZ899tp82vzLvqtvVjiOv83z/wDS4hftrxh/GZl6KGfGXzl8dt7JNzL2yfhnJiQpaPUO3YjnG4J4HGaXW226XAhZNVlu5+DF9w/nGHph7z8LfQx8y1drmeV++/b5Uxgo+WHOWPklPu38wfmB7uLIUFE1wkFOaUP9TWVoML6L6IP0X1WLCw/nSQ6RLOovJAnAN/HDKeoJh2R7C07jR6MIZYObC0Vl0GHFoNkHG4O5Rl+7Htshk8LhjJy8HHq4bOd3EtPUfHZ+r4d9fhfTc8+lBekH6X0r6y+qB8WHxZ/0ximv9pnmGp8BCwB3X7LhhZ/4nSx8eBfsgGBJZsWPjxixYgHjHx5w/wDnKArHNzchBWmrZM6zD+OV+8/4vj5tPw+yHfwSQXl6/DSE/DQ/IDuPgRNH8Pcc/H4KFp+GhfZCPgCZbHLFO6FuGM3EnY3/ABd4v0zaJ107ZvZnJssfaPDd5UY0MsXTf4nXltgXgXyJEOD/AMvO7l9xpWtZEH1ZfPlNIo/4uoXE116sPiWnQYvg1nG16AC/SQngSF6/MuELNV19A7iQeHysj/NrD7M+uV/3JX88Alv+x+i2M1S8a7Ai9Bc/rCSQQ5yKK/1OsOgTS/8AF/8ASbd4NaQxNfTp5HJSCDzGTJ5dHBLYnnJ6IxPTp/R+Bf6C4eEmQ9qf68IIidlsZC4vqMPY6+OfnXnQTprEzONGZm4cZR+3lGgeG3s6nTd5xa9C/d5/9V8+OGV59wJq3yeEQELAgR59FuGmAmsyyQr7+qsP0JkmrVoAAdB/xf8A1m3fn/2XtF79CpK9Ro+Tl4lI30KDy5FWP9DcOzBzmVdpm6EQTw22aWBgAcDJivc3pGIz0B5G/wBl/wC3+POvaIj9kHGif9513tPhuH1P9Xz3AWXEeoM5uCau/UeElxN/zN134GZeaT5QttaIJ/xAKcdxk1mJoeA/tGDHXyHxqPgJn/GDyWKUQUJncEbpcGHgZ9cCAARZ1153wgngk9UU+yAAPG2caTojhhgfB+HPFBG4AH6PO039FZhnCD+mxRFvF0H35G3W58defD9edC4Ik+I2IlH0edUjBQcC4xLPPWNYMR7um+4P/wDBRaIw8/MBILwMA/8AKBf/2Q==" alt="Maharaja" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #D4AF37;">
+    <div>
+      <h4>Maharaja Assistant</h4>
+      <span><i class="fas fa-circle" style="font-size:8px;"></i> Online</span>
+    </div>
+  </div>
+  <div class="ai-chat-messages" id="floating-chat-messages">
+    <div class="chat-message bot">Namaste! I am your Royal Assistant. How may I help you today?</div>
+  </div>
+  <div class="ai-chat-input-area">
+    <div class="ai-quick-buttons">
+      <button class="ai-quick-btn" onclick="sendFloatingQuick('timings')">Timings</button>
+      <button class="ai-quick-btn" onclick="sendFloatingQuick('location')">Location</button>
+      <button class="ai-quick-btn" onclick="sendFloatingQuick('price')">Prices</button>
+      <button class="ai-quick-btn" onclick="sendFloatingQuick('brands')">Brands</button>
+      <button class="ai-quick-btn" onclick="sendFloatingQuick('contact')">Contact</button>
+    </div>
+    <div class="ai-input-row">
+      <input type="text" id="floating-chat-input" placeholder="Type your question..." onkeypress="handleFloatingKey(event)">
+      <button onclick="sendFloatingChat()"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/canvas-scenes.js"></script>
+<script src="assets/js/reviews.js"></script>
+<script src="assets/js/assistant.js"></script>
+<script src="assets/js/app.js"></script>
+
+<!-- Elfsight platform: powers the live Google Reviews widget once a real widget ID is set (see Reviews tab). Loads lazily and stays inert otherwise. -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+</body>
+</html>
